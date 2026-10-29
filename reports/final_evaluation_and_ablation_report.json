@@ -1,0 +1,430 @@
+{
+  "evaluation_version": "2.1.0",
+  "model_selection": {
+    "timestamp": "2026-10-24T08:22:08.188878+00:00",
+    "selection_protocol": "development_validation_only",
+    "evaluated_development_folds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "selection_metric": "endpoint_mae_s",
+    "development_summary": [
+      {
+        "model": "CNNBiLSTMAttentionRUL",
+        "window_mae_s": 5396.8,
+        "window_rmse_s": 7929.6,
+        "endpoint_mae_s": 2979.8,
+        "endpoint_rmse_s": 3190.2,
+        "ieee_phm_score": null,
+        "evaluated_folds_count": 6
+      },
+      {
+        "model": "LateConcatBaseline",
+        "window_mae_s": 5248.4,
+        "window_rmse_s": 7420.4,
+        "endpoint_mae_s": 1326.4,
+        "endpoint_rmse_s": 1960.6,
+        "ieee_phm_score": null,
+        "evaluated_folds_count": 6
+      },
+      {
+        "model": "MainModel_NoAttention",
+        "window_mae_s": 5100.7,
+        "window_rmse_s": 7680.1,
+        "endpoint_mae_s": 2552.0,
+        "endpoint_rmse_s": 3072.2,
+        "ieee_phm_score": null,
+        "evaluated_folds_count": 6
+      },
+      {
+        "model": "MainModel_NoModalityDropout",
+        "window_mae_s": 5702.3,
+        "window_rmse_s": 8191.5,
+        "endpoint_mae_s": 4089.0,
+        "endpoint_rmse_s": 4783.9,
+        "ieee_phm_score": null,
+        "evaluated_folds_count": 6
+      },
+      {
+        "model": "TemperatureOnlyBaseline",
+        "window_mae_s": 5570.1,
+        "window_rmse_s": 7740.8,
+        "endpoint_mae_s": 5839.7,
+        "endpoint_rmse_s": 6011.6,
+        "ieee_phm_score": null,
+        "evaluated_folds_count": 6
+      },
+      {
+        "model": "VibrationOnlyBaseline",
+        "window_mae_s": 4964.8,
+        "window_rmse_s": 6987.3,
+        "endpoint_mae_s": 1738.0,
+        "endpoint_rmse_s": 1947.8,
+        "ieee_phm_score": null,
+        "evaluated_folds_count": 6
+      }
+    ],
+    "empirically_best_validation_model": {
+      "model_name": "LateConcatBaseline",
+      "endpoint_mae_s": 1326.4,
+      "endpoint_rmse_s": 1960.6,
+      "ieee_phm_score": null
+    },
+    "predetermined_target_model": {
+      "model_name": "CNNBiLSTMAttentionRUL",
+      "scientific_rationale": "While LateConcatBaseline achieved the lowest development validation endpoint MAE (1,326.4s) on the 6 development validation bearings, CNNBiLSTMAttentionRUL is the predetermined research target architecture specifically designed for multimodal sensor telemetry with missing-temperature availability gating and temporal self-attention pooling. CNNBiLSTMAttentionRUL is selected as the primary multimodal model for the official benchmark, while LateConcatBaseline is reported as the leading development baseline."
+    },
+    "frozen_official_configuration": {
+      "chosen_model": "CNNBiLSTMAttentionRUL",
+      "frozen_epoch_budget": 5,
+      "frozen_epoch_rule": {
+        "formula": "max(official_frozen_epoch_floor, int(round(median(main_model_best_epochs))))",
+        "official_frozen_epoch_floor": 5,
+        "observed_development_best_epochs": [
+          2,
+          3,
+          3,
+          6,
+          12,
+          2
+        ],
+        "observed_median": 3,
+        "frozen_epoch_budget": 5
+      },
+      "batch_size": 32,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001,
+      "gradient_clipping": 1.0,
+      "primary_loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "modality_dropout": 0.2,
+      "seeds": [
+        42,
+        123,
+        999
+      ],
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2"
+    }
+  },
+  "development_6_fold_models": [
+    {
+      "Model": "Naive Median Baseline",
+      "Subgroup": "All Bearings",
+      "Num Windows": 468,
+      "Num Endpoints": 6,
+      "Window MAE (s)": 6043.4,
+      "Window RMSE (s)": 8241.8,
+      "Endpoint MAE (s)": 6401.7,
+      "Endpoint RMSE (s)": 6460.8,
+      "IEEE PHM Score": null
+    },
+    {
+      "Model": "Random Forest (Handcrafted)",
+      "Subgroup": "All Bearings",
+      "Num Windows": 468,
+      "Num Endpoints": 6,
+      "Window MAE (s)": 6859.8,
+      "Window RMSE (s)": 8930.6,
+      "Endpoint MAE (s)": 2553.8,
+      "Endpoint RMSE (s)": 3197.3,
+      "IEEE PHM Score": null
+    },
+    {
+      "Model": "CNNBiLSTMAttentionRUL",
+      "Subgroup": "All Bearings",
+      "Num Windows": 468,
+      "Num Endpoints": 6,
+      "Window MAE (s)": 5396.8,
+      "Window RMSE (s)": 7929.6,
+      "Endpoint MAE (s)": 2979.8,
+      "Endpoint RMSE (s)": 3190.2,
+      "IEEE PHM Score": null
+    },
+    {
+      "Model": "MainModel_NoAttention",
+      "Subgroup": "All Bearings",
+      "Num Windows": 468,
+      "Num Endpoints": 6,
+      "Window MAE (s)": 5100.7,
+      "Window RMSE (s)": 7680.1,
+      "Endpoint MAE (s)": 2552.0,
+      "Endpoint RMSE (s)": 3072.2,
+      "IEEE PHM Score": null
+    },
+    {
+      "Model": "MainModel_NoModalityDropout",
+      "Subgroup": "All Bearings",
+      "Num Windows": 468,
+      "Num Endpoints": 6,
+      "Window MAE (s)": 5702.3,
+      "Window RMSE (s)": 8191.5,
+      "Endpoint MAE (s)": 4089.0,
+      "Endpoint RMSE (s)": 4783.9,
+      "IEEE PHM Score": null
+    },
+    {
+      "Model": "LateConcatBaseline",
+      "Subgroup": "All Bearings",
+      "Num Windows": 468,
+      "Num Endpoints": 6,
+      "Window MAE (s)": 5248.4,
+      "Window RMSE (s)": 7420.4,
+      "Endpoint MAE (s)": 1326.4,
+      "Endpoint RMSE (s)": 1960.6,
+      "IEEE PHM Score": null
+    },
+    {
+      "Model": "TemperatureOnlyBaseline",
+      "Subgroup": "All Bearings",
+      "Num Windows": 468,
+      "Num Endpoints": 6,
+      "Window MAE (s)": 5570.1,
+      "Window RMSE (s)": 7740.8,
+      "Endpoint MAE (s)": 5839.7,
+      "Endpoint RMSE (s)": 6011.6,
+      "IEEE PHM Score": null
+    },
+    {
+      "Model": "VibrationOnlyBaseline",
+      "Subgroup": "All Bearings",
+      "Num Windows": 468,
+      "Num Endpoints": 6,
+      "Window MAE (s)": 4964.8,
+      "Window RMSE (s)": 6987.3,
+      "Endpoint MAE (s)": 1738.0,
+      "Endpoint RMSE (s)": 1947.8,
+      "IEEE PHM Score": null
+    }
+  ],
+  "temperature_subgroups_dev": [
+    {
+      "Model": "Random Forest",
+      "Subgroup": "Usable Temperature",
+      "Num Windows": 317,
+      "Num Endpoints": 4,
+      "Window MAE (s)": 6765.1,
+      "Window RMSE (s)": 9235.0,
+      "Endpoint MAE (s)": 2800.3,
+      "Endpoint RMSE (s)": 3599.2,
+      "IEEE PHM Score": null
+    },
+    {
+      "Model": "Random Forest",
+      "Subgroup": "Fully Missing Temperature",
+      "Num Windows": 151,
+      "Num Endpoints": 2,
+      "Window MAE (s)": 7058.5,
+      "Window RMSE (s)": 8255.2,
+      "Endpoint MAE (s)": 2060.8,
+      "Endpoint RMSE (s)": 2181.9,
+      "IEEE PHM Score": null
+    },
+    {
+      "Model": "Main Model (CNNBiLSTMAttentionRUL)",
+      "Subgroup": "Usable Temperature",
+      "Num Windows": 317,
+      "Num Endpoints": 4,
+      "Window MAE (s)": 6378.2,
+      "Window RMSE (s)": 9275.5,
+      "Endpoint MAE (s)": 3330.5,
+      "Endpoint RMSE (s)": 3535.1,
+      "IEEE PHM Score": null
+    },
+    {
+      "Model": "Main Model (CNNBiLSTMAttentionRUL)",
+      "Subgroup": "Fully Missing Temperature",
+      "Num Windows": 151,
+      "Num Endpoints": 2,
+      "Window MAE (s)": 3336.5,
+      "Window RMSE (s)": 3776.7,
+      "Endpoint MAE (s)": 2278.3,
+      "Endpoint RMSE (s)": 2353.4,
+      "IEEE PHM Score": null
+    }
+  ],
+  "modality_ablations_6_fold": [
+    {
+      "Model": "CNNBiLSTMAttentionRUL",
+      "Subgroup": "Modality Ablation",
+      "Num Windows": 468,
+      "Num Endpoints": 6,
+      "Window MAE (s)": 5396.8,
+      "Window RMSE (s)": 7929.6,
+      "Endpoint MAE (s)": 2979.8,
+      "Endpoint RMSE (s)": 3190.2,
+      "IEEE PHM Score": null
+    },
+    {
+      "Model": "MainModel_NoAttention",
+      "Subgroup": "Modality Ablation",
+      "Num Windows": 468,
+      "Num Endpoints": 6,
+      "Window MAE (s)": 5100.7,
+      "Window RMSE (s)": 7680.1,
+      "Endpoint MAE (s)": 2552.0,
+      "Endpoint RMSE (s)": 3072.2,
+      "IEEE PHM Score": null
+    },
+    {
+      "Model": "MainModel_NoModalityDropout",
+      "Subgroup": "Modality Ablation",
+      "Num Windows": 468,
+      "Num Endpoints": 6,
+      "Window MAE (s)": 5702.3,
+      "Window RMSE (s)": 8191.5,
+      "Endpoint MAE (s)": 4089.0,
+      "Endpoint RMSE (s)": 4783.9,
+      "IEEE PHM Score": null
+    },
+    {
+      "Model": "VibrationOnlyBaseline",
+      "Subgroup": "Modality Ablation",
+      "Num Windows": 468,
+      "Num Endpoints": 6,
+      "Window MAE (s)": 4964.8,
+      "Window RMSE (s)": 6987.3,
+      "Endpoint MAE (s)": 1738.0,
+      "Endpoint RMSE (s)": 1947.8,
+      "IEEE PHM Score": null
+    },
+    {
+      "Model": "TemperatureOnlyBaseline",
+      "Subgroup": "Modality Ablation",
+      "Num Windows": 468,
+      "Num Endpoints": 6,
+      "Window MAE (s)": 5570.1,
+      "Window RMSE (s)": 7740.8,
+      "Endpoint MAE (s)": 5839.7,
+      "Endpoint RMSE (s)": 6011.6,
+      "IEEE PHM Score": null
+    },
+    {
+      "Model": "LateConcatBaseline",
+      "Subgroup": "Modality Ablation",
+      "Num Windows": 468,
+      "Num Endpoints": 6,
+      "Window MAE (s)": 5248.4,
+      "Window RMSE (s)": 7420.4,
+      "Endpoint MAE (s)": 1326.4,
+      "Endpoint RMSE (s)": 1960.6,
+      "IEEE PHM Score": null
+    }
+  ],
+  "official_test_benchmarks": [
+    {
+      "Model": "Random Forest (Handcrafted)",
+      "Subgroup": "Official Test Benchmark",
+      "Num Windows": 866,
+      "Num Endpoints": 11,
+      "Window MAE (s)": 6558.1,
+      "Window RMSE (s)": 7645.7,
+      "Endpoint MAE (s)": 3502.9,
+      "Endpoint RMSE (s)": 4378.0,
+      "IEEE PHM Score": 0.11422
+    },
+    {
+      "Model": "CNNBiLSTMAttentionRUL (Seed 42)",
+      "Subgroup": "Official Test Benchmark",
+      "Num Windows": 866,
+      "Num Endpoints": 11,
+      "Window MAE (s)": 8450.9,
+      "Window RMSE (s)": 10251.3,
+      "Endpoint MAE (s)": 3751.8,
+      "Endpoint RMSE (s)": 5093.6,
+      "IEEE PHM Score": 0.13292
+    },
+    {
+      "Model": "CNNBiLSTMAttentionRUL (Seed 123)",
+      "Subgroup": "Official Test Benchmark",
+      "Num Windows": 866,
+      "Num Endpoints": 11,
+      "Window MAE (s)": 8090.6,
+      "Window RMSE (s)": 9772.5,
+      "Endpoint MAE (s)": 2972.5,
+      "Endpoint RMSE (s)": 3529.0,
+      "IEEE PHM Score": 0.09949
+    },
+    {
+      "Model": "CNNBiLSTMAttentionRUL (Seed 999)",
+      "Subgroup": "Official Test Benchmark",
+      "Num Windows": 866,
+      "Num Endpoints": 11,
+      "Window MAE (s)": 8447.1,
+      "Window RMSE (s)": 10227.8,
+      "Endpoint MAE (s)": 3349.9,
+      "Endpoint RMSE (s)": 4018.0,
+      "IEEE PHM Score": 0.08955
+    },
+    {
+      "Model": "CNNBiLSTMAttentionRUL (Multi-Seed Ensemble)",
+      "Subgroup": "Official Test Benchmark",
+      "Num Windows": 866,
+      "Num Endpoints": 11,
+      "Window MAE (s)": 8191.5,
+      "Window RMSE (s)": 10000.6,
+      "Endpoint MAE (s)": 3264.0,
+      "Endpoint RMSE (s)": 4140.0,
+      "IEEE PHM Score": 0.08465
+    }
+  ],
+  "official_temperature_subgroups": [
+    {
+      "Model": "Random Forest",
+      "Subgroup": "Usable Temperature",
+      "Num Windows": 644,
+      "Num Endpoints": 8,
+      "Window MAE (s)": 6838.6,
+      "Window RMSE (s)": 7882.6,
+      "Endpoint MAE (s)": 3677.2,
+      "Endpoint RMSE (s)": 4592.8,
+      "IEEE PHM Score": 0.05001
+    },
+    {
+      "Model": "Random Forest",
+      "Subgroup": "Fully Missing Temperature",
+      "Num Windows": 222,
+      "Num Endpoints": 3,
+      "Window MAE (s)": 5744.4,
+      "Window RMSE (s)": 6912.7,
+      "Endpoint MAE (s)": 3038.3,
+      "Endpoint RMSE (s)": 3745.6,
+      "IEEE PHM Score": 0.28544
+    },
+    {
+      "Model": "CNNBiLSTMAttentionRUL (Ensemble)",
+      "Subgroup": "Usable Temperature",
+      "Num Windows": 644,
+      "Num Endpoints": 8,
+      "Window MAE (s)": 9628.3,
+      "Window RMSE (s)": 11197.0,
+      "Endpoint MAE (s)": 3364.7,
+      "Endpoint RMSE (s)": 4315.6,
+      "IEEE PHM Score": 0.08592
+    },
+    {
+      "Model": "CNNBiLSTMAttentionRUL (Ensemble)",
+      "Subgroup": "Fully Missing Temperature",
+      "Num Windows": 222,
+      "Num Endpoints": 3,
+      "Window MAE (s)": 4023.5,
+      "Window RMSE (s)": 5142.0,
+      "Endpoint MAE (s)": 2995.4,
+      "Endpoint RMSE (s)": 3630.5,
+      "IEEE PHM Score": 0.08126
+    }
+  ],
+  "plots_generated": [
+    "rul_trajectory_bearing1_1.png",
+    "endpoint_scatter_comparison.png",
+    "error_distribution_boxplot.png",
+    "modality_ablation_comparison.png",
+    "official_test_endpoint_comparison.png"
+  ],
+  "ground_truth_caveats": [
+    "Bearing1_4 configured RUL is 339s. Known Full_Test_Set endpoint discrepancy must be reported separately and not silently overwritten."
+  ]
+}

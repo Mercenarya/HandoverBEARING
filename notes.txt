@@ -1,0 +1,29 @@
+Minh, các chỉ số hiện tại của mô hình đã có kết quả nhưng vẫn chưa đạt mức tốt. 
+Hướng Multimodal hiện có mean trajectory NRMSE là 0.34792, đang kém hơn Vibration-only là 0.28789. 
+Anh muốn tối ưu tiếp theo hai hướng song song để so sánh và chọn hướng phát triển tốt hơn. 
+
+Em phụ trách hướng Multimodal, tập trung kiểm tra cách sử dụng temperature mask, fusion, modality dropout và attention. 
+Em đọc OPTIMIZATION_CONTEXT.md, TASK_2_MULTIMODAL_OPTIMIZATION.md và cập nhật đầy đủ OPTIMIZATION_CHANGE_LOG.md trong 
+thư mục anh gửi. 
+
+Nhớ chạy training từng thay đổi để thấy được sự khác biệt và tiếp tục tối ưu. Chỉ chạy training nhé, 
+vì data sau khi đã tiền xử lý đã được lưu cache pronostia_v4_cf6053f032a89fa2 rồi, bộ training nó tự động nhận data đầu vào rồi. Cái ni thì em cũng biết rồi, có Huy nó chưa biết, có gì hướng dẫn nó
+Trình tự chạy:
+1. Chạy 01_training_data_gate.ipynb để xác nhận cache trong thư mục riêng vẫn hợp lệ.
+2. Chạy và chỉnh 03_deep_learning_training.ipynb để tối ưu hướng được giao.
+3. Chạy 04_evaluation_and_ablation.ipynb để tính lại và kiểm chứng metrics.
+4. Không chạy official evaluation.
+
+Khi dùng AI sửa code, chỉ thay đổi phần thực sự cần thiết và ghi rõ đã sửa gì, lý do, kiểm tra và kết quả trước/sau. 
+Không dùng official test để chọn mô hình và không ghi đè kết quả OPT2.
+
+
+
+Tối ưu song song NRMSE và VB
+* Multimodal
+= kiểm tra các temperature mask, fushion, modality dropout, attention
+- phân tích OPTIMIZATION_CONTEXT.md, TASK_2_MULTIMODAL_OPTIMIZATION.md, cập nhật đẩy đủ OPTIMIZATION_CHANGE_LOG.md
+- training từng thay đổi để phân tích các sự khác biệt và tiếp tục tối ưu
+- chỉnh 03_deep_learning.ipynb để tối hướng được giao
+- chạy 04_evaluation_and_ablation.ipynb tính lại và kiểm chứng metrics
+- không chạy official evaluation

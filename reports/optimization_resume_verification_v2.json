@@ -1,0 +1,77 @@
+{
+  "verification_name": "Controlled OPT2 Resumption and RNG Restoration Fixture",
+  "timestamp": "2026-10-29T08:29:08.356172+00:00",
+  "status": "PASS",
+  "interrupted_at_epoch": 2,
+  "resumed_from_epoch": 3,
+  "total_epochs": 4,
+  "uninterrupted_loss_history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.046274,
+      "val_loss": 0.337035
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.033087,
+      "val_loss": 0.281333
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.025903,
+      "val_loss": 0.202785
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.019705,
+      "val_loss": 0.213957
+    }
+  ],
+  "resumed_loss_history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.046274,
+      "val_loss": 0.337035
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.033087,
+      "val_loss": 0.281333
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.025903,
+      "val_loss": 0.202785
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.019705,
+      "val_loss": 0.213957
+    }
+  ],
+  "maximum_loss_discrepancy": 0.0,
+  "rng_restored_states": [
+    "python",
+    "numpy",
+    "torch_cpu",
+    "n/a"
+  ],
+  "exact_equality_verified": true,
+  "non_destructive_integration_fixture": {
+    "status": "PASS",
+    "shared_decision_function": "decide_opt2_checkpoint_action",
+    "shared_restoration_helper": "restore_resumable_training_state",
+    "restoration_helper_version": "step21h",
+    "tests_passed": [
+      "missing_pair_train",
+      "in_progress_resume",
+      "start_epoch_equals_next_epoch_via_shared_helper",
+      "controlled_continuation_appended_at_next_epoch",
+      "completed_pair_reuse",
+      "full_identity_mismatch_rejected",
+      "delivered_checkpoints_invariant"
+    ],
+    "delivered_checkpoints_count": 72,
+    "all_7_integration_conditions_passed": true
+  }
+}

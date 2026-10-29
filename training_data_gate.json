@@ -1,0 +1,367 @@
+{
+  "timestamp": "2026-10-29T08:26:11.875054+00:00",
+  "gate_decision": "PASS",
+  "cache_path": "artifacts/pronostia_cache",
+  "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+  "raw_data_path": "data/raw/pronostia",
+  "checks": {
+    "raw_data": {
+      "raw_dir_exists": true,
+      "learning_bearings": [
+        "Bearing1_1",
+        "Bearing1_2",
+        "Bearing2_1",
+        "Bearing2_2",
+        "Bearing3_1",
+        "Bearing3_2"
+      ],
+      "test_bearings": [
+        "Bearing1_3",
+        "Bearing1_4",
+        "Bearing1_5",
+        "Bearing1_6",
+        "Bearing1_7",
+        "Bearing2_3",
+        "Bearing2_4",
+        "Bearing2_5",
+        "Bearing2_6",
+        "Bearing2_7",
+        "Bearing3_3"
+      ]
+    },
+    "cache_structure": {
+      "cache_dir_exists": true,
+      "folds_found": [
+        "fold_0",
+        "fold_1",
+        "fold_2",
+        "fold_3",
+        "fold_4",
+        "fold_5"
+      ],
+      "has_official_split": true
+    },
+    "vibration_contract": {
+      "shape": [
+        32,
+        2,
+        1024
+      ],
+      "status": "PASS"
+    },
+    "temperature_contract": {
+      "shape": [
+        32,
+        1,
+        64
+      ],
+      "status": "PASS"
+    },
+    "handcrafted_features_contract": {
+      "shape": [
+        32,
+        37
+      ],
+      "features_count": 37,
+      "status": "PASS"
+    },
+    "rul_target_contract": {
+      "shape": [
+        1
+      ],
+      "units": "seconds",
+      "status": "PASS"
+    },
+    "split_isolation": [
+      {
+        "fold": "fold_0",
+        "train_bearings": [
+          "Bearing1_2",
+          "Bearing2_1",
+          "Bearing2_2",
+          "Bearing3_1",
+          "Bearing3_2"
+        ],
+        "validation_bearings": [
+          "Bearing1_1"
+        ],
+        "test_bearings": [],
+        "train_val_intersection": [],
+        "train_test_intersection": [],
+        "val_test_intersection": [],
+        "isolated": true,
+        "verdict": "PASS"
+      },
+      {
+        "fold": "fold_1",
+        "train_bearings": [
+          "Bearing1_1",
+          "Bearing2_1",
+          "Bearing2_2",
+          "Bearing3_1",
+          "Bearing3_2"
+        ],
+        "validation_bearings": [
+          "Bearing1_2"
+        ],
+        "test_bearings": [],
+        "train_val_intersection": [],
+        "train_test_intersection": [],
+        "val_test_intersection": [],
+        "isolated": true,
+        "verdict": "PASS"
+      },
+      {
+        "fold": "fold_2",
+        "train_bearings": [
+          "Bearing1_1",
+          "Bearing1_2",
+          "Bearing2_2",
+          "Bearing3_1",
+          "Bearing3_2"
+        ],
+        "validation_bearings": [
+          "Bearing2_1"
+        ],
+        "test_bearings": [],
+        "train_val_intersection": [],
+        "train_test_intersection": [],
+        "val_test_intersection": [],
+        "isolated": true,
+        "verdict": "PASS"
+      },
+      {
+        "fold": "fold_3",
+        "train_bearings": [
+          "Bearing1_1",
+          "Bearing1_2",
+          "Bearing2_1",
+          "Bearing3_1",
+          "Bearing3_2"
+        ],
+        "validation_bearings": [
+          "Bearing2_2"
+        ],
+        "test_bearings": [],
+        "train_val_intersection": [],
+        "train_test_intersection": [],
+        "val_test_intersection": [],
+        "isolated": true,
+        "verdict": "PASS"
+      },
+      {
+        "fold": "fold_4",
+        "train_bearings": [
+          "Bearing1_1",
+          "Bearing1_2",
+          "Bearing2_1",
+          "Bearing2_2",
+          "Bearing3_2"
+        ],
+        "validation_bearings": [
+          "Bearing3_1"
+        ],
+        "test_bearings": [],
+        "train_val_intersection": [],
+        "train_test_intersection": [],
+        "val_test_intersection": [],
+        "isolated": true,
+        "verdict": "PASS"
+      },
+      {
+        "fold": "fold_5",
+        "train_bearings": [
+          "Bearing1_1",
+          "Bearing1_2",
+          "Bearing2_1",
+          "Bearing2_2",
+          "Bearing3_1"
+        ],
+        "validation_bearings": [
+          "Bearing3_2"
+        ],
+        "test_bearings": [],
+        "train_val_intersection": [],
+        "train_test_intersection": [],
+        "val_test_intersection": [],
+        "isolated": true,
+        "verdict": "PASS"
+      },
+      {
+        "fold": "official",
+        "train_bearings": [
+          "Bearing1_1",
+          "Bearing1_2",
+          "Bearing2_1",
+          "Bearing2_2",
+          "Bearing3_1",
+          "Bearing3_2"
+        ],
+        "validation_bearings": [],
+        "test_bearings": [
+          "Bearing1_3",
+          "Bearing1_4",
+          "Bearing1_5",
+          "Bearing1_6",
+          "Bearing1_7",
+          "Bearing2_3",
+          "Bearing2_4",
+          "Bearing2_5",
+          "Bearing2_6",
+          "Bearing2_7",
+          "Bearing3_3"
+        ],
+        "train_val_intersection": [],
+        "train_test_intersection": [],
+        "val_test_intersection": [],
+        "isolated": true,
+        "verdict": "PASS"
+      }
+    ],
+    "scaler_provenance": [
+      {
+        "fold": 0,
+        "train_bearings_count": 5,
+        "has_vibration_stats": true,
+        "has_temperature_stats": true,
+        "has_handcrafted_scaler": true
+      },
+      {
+        "fold": 1,
+        "train_bearings_count": 5,
+        "has_vibration_stats": true,
+        "has_temperature_stats": true,
+        "has_handcrafted_scaler": true
+      },
+      {
+        "fold": 2,
+        "train_bearings_count": 5,
+        "has_vibration_stats": true,
+        "has_temperature_stats": true,
+        "has_handcrafted_scaler": true
+      },
+      {
+        "fold": 3,
+        "train_bearings_count": 5,
+        "has_vibration_stats": true,
+        "has_temperature_stats": true,
+        "has_handcrafted_scaler": true
+      },
+      {
+        "fold": 4,
+        "train_bearings_count": 5,
+        "has_vibration_stats": true,
+        "has_temperature_stats": true,
+        "has_handcrafted_scaler": true
+      },
+      {
+        "fold": 5,
+        "train_bearings_count": 5,
+        "has_vibration_stats": true,
+        "has_temperature_stats": true,
+        "has_handcrafted_scaler": true
+      }
+    ],
+    "dataloader_full_passes": [
+      {
+        "fold": "fold_0",
+        "split": "train",
+        "num_windows": 288,
+        "num_batches": 9,
+        "status": "PASS"
+      },
+      {
+        "fold": "fold_1",
+        "split": "train",
+        "num_windows": 409,
+        "num_batches": 13,
+        "status": "PASS"
+      },
+      {
+        "fold": "fold_2",
+        "split": "train",
+        "num_windows": 407,
+        "num_batches": 13,
+        "status": "PASS"
+      },
+      {
+        "fold": "fold_3",
+        "split": "train",
+        "num_windows": 414,
+        "num_batches": 13,
+        "status": "PASS"
+      },
+      {
+        "fold": "fold_4",
+        "split": "train",
+        "num_windows": 431,
+        "num_batches": 14,
+        "status": "PASS"
+      },
+      {
+        "fold": "fold_5",
+        "split": "train",
+        "num_windows": 361,
+        "num_batches": 12,
+        "status": "PASS"
+      },
+      {
+        "fold": "fold_0",
+        "split": "validation",
+        "num_windows": 175,
+        "num_batches": 6,
+        "status": "PASS"
+      },
+      {
+        "fold": "fold_1",
+        "split": "validation",
+        "num_windows": 54,
+        "num_batches": 2,
+        "status": "PASS"
+      },
+      {
+        "fold": "fold_2",
+        "split": "validation",
+        "num_windows": 56,
+        "num_batches": 2,
+        "status": "PASS"
+      },
+      {
+        "fold": "fold_3",
+        "split": "validation",
+        "num_windows": 49,
+        "num_batches": 2,
+        "status": "PASS"
+      },
+      {
+        "fold": "fold_4",
+        "split": "validation",
+        "num_windows": 32,
+        "num_batches": 1,
+        "status": "PASS"
+      },
+      {
+        "fold": "fold_5",
+        "split": "validation",
+        "num_windows": 102,
+        "num_batches": 4,
+        "status": "PASS"
+      },
+      {
+        "fold": "official",
+        "split": "train",
+        "num_windows": 462,
+        "num_batches": 15,
+        "status": "PASS"
+      },
+      {
+        "fold": "official",
+        "split": "test",
+        "num_windows": 866,
+        "num_batches": 28,
+        "status": "PASS"
+      }
+    ]
+  },
+  "blocker_summary": []
+}

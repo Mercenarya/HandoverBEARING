@@ -1,0 +1,404 @@
+# PRONOSTIA RUL Training and Experiment Configuration
+# Conforms strictly to SPEC.md and AGENTS.md
+
+experiment:
+  name: pronostia_rul_experiments
+  version: 2.1.0-step21d
+  pipeline_version: "2.1.0-step21d"
+  code_version: "step21d"
+  enable_official_evaluation: false
+  seed: 42
+  device: cpu  # Mandatory CPU fallback; CUDA enabled if available: auto
+  mixed_precision: false
+
+paths:
+  cache_root: artifacts/pronostia_cache
+  runs_dir: runs
+  checkpoints_dir: checkpoints
+  predictions_dir: predictions
+  metrics_dir: metrics
+  reports_dir: reports
+
+dataset_contract:
+  sequence_length: 32
+  stride_train: 16
+  stride_eval: 16
+  vibration_shape: [32, 2, 1024]
+  temperature_shape: [32, 1, 64]
+  temperature_mask_shape: [32, 1, 64]
+  handcrafted_features_shape: [32, 37]
+  handcrafted_feature_mask_shape: [32, 37]
+  rul_shape: [1]
+  target_unit: seconds
+
+target_scaling:
+  method: fold_max_normalization  # divide RUL seconds by max RUL in fold training set
+  fit_on_train_only: true
+  clamp_non_negative: true
+
+splits:
+  development_folds: [0, 1, 2, 3, 4, 5]
+  official_test_split: official
+  isolation_policy: strict_bearing_level
+
+prediction_schema:
+  required_columns:
+    - run_id
+    - model_name
+    - fold
+    - split
+    - seed
+    - bearing_id
+    - condition_id
+    - endpoint_acquisition_index
+    - endpoint_timestamp
+    - actual_rul_seconds
+    - predicted_rul_seconds
+    - absolute_error_seconds
+    - is_temperature_fully_missing
+    - is_final_endpoint
+
+evaluation_metrics:
+  window_level:
+    - mae_seconds
+    - rmse_seconds
+  bearing_endpoint:
+    - mae_seconds
+    - rmse_seconds
+    - ieee_phm_2012_score  # accuracy score in [0, 1], higher is better
+
+ground_truth:
+  source: MDPI Table 2, DOI 10.3390/app8071102
+  ground_truth_file: test_ground_truth.csv
+  bearing1_4_warning: "Bearing1_4 configured RUL is 339s. Known Full_Test_Set endpoint discrepancy must be reported separately and not silently overwritten."
+
+models:
+  naive_baseline:
+    type: training_median_constant
+    fit_on_train_only: true
+
+  random_forest_baseline:
+    type: RandomForestRegressor
+    features: handcrafted_37_aggregated
+    aggregation:
+      - last_valid_value
+      - masked_mean
+      - masked_std
+      - temporal_slope
+      - missing_rate
+    hyperparameter_grid:
+      n_estimators: [50, 100, 200]
+      max_depth: [5, 10, 15, null]
+      min_samples_split: [2, 5]
+      random_state: 42
+
+  vibration_only_baseline:
+    type: CNNBiLSTM_VibrationOnly
+    vibration_channels: 2
+    conv_filters: [32, 64, 128]
+    lstm_hidden_dim: 64
+    lstm_layers: 2
+    dropout: 0.2
+
+  temperature_only_baseline:
+    type: MaskedBiLSTM_TemperatureOnly
+    temp_channels: 1
+    mlp_dim: 32
+    lstm_hidden_dim: 32
+    lstm_layers: 1
+    dropout: 0.1
+
+  simple_multimodal_baseline:
+    type: LateConcatenationBiLSTM
+    fusion: simple_concat
+    lstm_hidden_dim: 64
+    lstm_layers: 2
+    dropout: 0.2
+
+  main_multimodal_model:
+    name: CNNBiLSTMAttentionRUL
+    type: MissingAwareMultimodalAttention
+    vibration_conv_filters: [32, 64, 128]
+    temperature_hidden_dim: 64
+    common_projection_dim: 64
+    fusion_mechanism: gated_cross_modal_attention
+    temporal_model: BiLSTM
+    temporal_hidden_dim: 64
+    temporal_layers: 2
+    temporal_dropout: 0.2
+    attention_pooling: true
+    return_aux_weights: true
+    training_modality_dropout: 0.2  # applied during training only
+
+training_defaults:
+  batch_size: 32
+  max_epochs: 100
+  early_stopping_patience: 15
+  development_max_epochs: 25
+  development_early_stopping_patience: 6
+  official_frozen_epoch_floor: 5
+  optimizer: AdamW
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  gradient_clipping: 1.0
+  primary_loss: HuberLoss
+  huber_delta: 1.0
+  scheduler: ReduceLROnPlateau
+  scheduler_patience: 5
+  scheduler_factor: 0.5
+  official_scheduler: CosineAnnealingLR
+  official_scheduler_eta_min: 0.00001
+  development_seed: 42
+  final_evaluation_seeds: [42, 123, 999]
+  enable_official_evaluation: false  # Step 2.1D: Official evaluation strictly disabled during optimization
+
+# Preserved preliminary audit evidence (superseded by optimization_v2 per SPEC Section 20)
+optimization:
+  status: "audit_rejected_preliminary"
+  max_screened_configurations: 12
+  max_confirmed_finalists: 3
+  screening_folds: [0, 2]
+  confirmation_folds: [0, 1, 2, 3, 4, 5]
+  selection_metric: endpoint_mae_s
+  tie_breakers:
+    - endpoint_rmse_s
+    - endpoint_mae_std_s
+    - parameter_count
+  tie_tolerance_seconds: 10.0
+  candidates:
+    - id: "OPT_01"
+      family: "LateConcatBaseline"
+      learning_rate: 0.001
+      loss: "HuberLoss"
+      huber_delta: 1.0
+      temporal_hidden_dim: 64
+      modality_dropout: 0.2
+      max_epochs: 25
+      patience: 6
+    - id: "OPT_02"
+      family: "LateConcatBaseline"
+      learning_rate: 0.0005
+      loss: "HuberLoss"
+      huber_delta: 1.0
+      temporal_hidden_dim: 64
+      modality_dropout: 0.2
+      max_epochs: 25
+      patience: 6
+    - id: "OPT_03"
+      family: "LateConcatBaseline"
+      learning_rate: 0.001
+      loss: "MSELoss"
+      huber_delta: 0.0
+      temporal_hidden_dim: 64
+      modality_dropout: 0.2
+      max_epochs: 25
+      patience: 6
+    - id: "OPT_04"
+      family: "LateConcatBaseline"
+      learning_rate: 0.001
+      loss: "HuberLoss"
+      huber_delta: 0.5
+      temporal_hidden_dim: 32
+      modality_dropout: 0.2
+      max_epochs: 25
+      patience: 6
+    - id: "OPT_05"
+      family: "VibrationOnlyBaseline"
+      learning_rate: 0.001
+      loss: "HuberLoss"
+      huber_delta: 1.0
+      temporal_hidden_dim: 64
+      modality_dropout: 0.0
+      max_epochs: 25
+      patience: 6
+    - id: "OPT_06"
+      family: "VibrationOnlyBaseline"
+      learning_rate: 0.0005
+      loss: "HuberLoss"
+      huber_delta: 1.0
+      temporal_hidden_dim: 64
+      modality_dropout: 0.0
+      max_epochs: 25
+      patience: 6
+    - id: "OPT_07"
+      family: "VibrationOnlyBaseline"
+      learning_rate: 0.001
+      loss: "HuberLoss"
+      huber_delta: 1.0
+      temporal_hidden_dim: 32
+      modality_dropout: 0.0
+      max_epochs: 25
+      patience: 6
+    - id: "OPT_08"
+      family: "CNNBiLSTMAttentionRUL"
+      learning_rate: 0.001
+      loss: "HuberLoss"
+      huber_delta: 1.0
+      temporal_hidden_dim: 64
+      modality_dropout: 0.2
+      max_epochs: 25
+      patience: 6
+    - id: "OPT_09"
+      family: "CNNBiLSTMAttentionRUL"
+      learning_rate: 0.0005
+      loss: "HuberLoss"
+      huber_delta: 1.0
+      temporal_hidden_dim: 64
+      modality_dropout: 0.1
+      max_epochs: 25
+      patience: 6
+    - id: "OPT_10"
+      family: "CNNBiLSTMAttentionRUL"
+      learning_rate: 0.001
+      loss: "HuberLoss"
+      huber_delta: 0.5
+      temporal_hidden_dim: 32
+      modality_dropout: 0.3
+      max_epochs: 25
+      patience: 8
+    - id: "OPT_11"
+      family: "MainModel_NoAttention"
+      learning_rate: 0.001
+      loss: "HuberLoss"
+      huber_delta: 1.0
+      temporal_hidden_dim: 64
+      modality_dropout: 0.2
+      max_epochs: 25
+      patience: 6
+    - id: "OPT_12"
+      family: "MainModel_NoAttention"
+      learning_rate: 0.0005
+      loss: "HuberLoss"
+      huber_delta: 1.0
+      temporal_hidden_dim: 32
+      modality_dropout: 0.2
+      max_epochs: 25
+      patience: 6
+
+# Step 2.1D / SPEC Section 20: Corrected Bounded Model Optimization Protocol
+optimization_v2:
+  status: "active_step21d_corrected"
+  candidate_namespace: "OPT2"
+  max_screened_configurations: 12
+  max_confirmed_finalists: 3
+  screening_folds: [0, 2]
+  screening_bearings: ["Bearing1_1", "Bearing2_1"]
+  confirmation_folds: [0, 1, 2, 3, 4, 5]
+  selection_rule:
+    primary_metric: "mean_trajectory_nrmse"
+    tie_breaker_1: "mean_trajectory_nmae"
+    tie_tolerance_nrmse: 0.005
+    tie_breaker_2: "global_window_rmse_s"
+    tie_breaker_3: "std_trajectory_nrmse"
+    tie_breaker_4: "parameter_count"
+  candidates:
+    - id: "OPT2_01"
+      family: "LateConcatBaseline"
+      learning_rate: 0.001
+      loss: "HuberLoss"
+      huber_delta: 1.0
+      temporal_hidden_dim: 64
+      modality_dropout: 0.2
+      max_epochs: 25
+      patience: 6
+    - id: "OPT2_02"
+      family: "LateConcatBaseline"
+      learning_rate: 0.0005
+      loss: "HuberLoss"
+      huber_delta: 1.0
+      temporal_hidden_dim: 64
+      modality_dropout: 0.2
+      max_epochs: 25
+      patience: 6
+    - id: "OPT2_03"
+      family: "LateConcatBaseline"
+      learning_rate: 0.001
+      loss: "MSELoss"
+      huber_delta: 0.0
+      temporal_hidden_dim: 64
+      modality_dropout: 0.2
+      max_epochs: 25
+      patience: 6
+    - id: "OPT2_04"
+      family: "LateConcatBaseline"
+      learning_rate: 0.001
+      loss: "HuberLoss"
+      huber_delta: 0.5
+      temporal_hidden_dim: 32
+      modality_dropout: 0.2
+      max_epochs: 25
+      patience: 6
+    - id: "OPT2_05"
+      family: "VibrationOnlyBaseline"
+      learning_rate: 0.001
+      loss: "HuberLoss"
+      huber_delta: 1.0
+      temporal_hidden_dim: 64
+      modality_dropout: 0.0
+      max_epochs: 25
+      patience: 6
+    - id: "OPT2_06"
+      family: "VibrationOnlyBaseline"
+      learning_rate: 0.0005
+      loss: "HuberLoss"
+      huber_delta: 1.0
+      temporal_hidden_dim: 64
+      modality_dropout: 0.0
+      max_epochs: 25
+      patience: 6
+    - id: "OPT2_07"
+      family: "VibrationOnlyBaseline"
+      learning_rate: 0.001
+      loss: "HuberLoss"
+      huber_delta: 1.0
+      temporal_hidden_dim: 32
+      modality_dropout: 0.0
+      max_epochs: 25
+      patience: 6
+    - id: "OPT2_08"
+      family: "CNNBiLSTMAttentionRUL"
+      learning_rate: 0.001
+      loss: "HuberLoss"
+      huber_delta: 1.0
+      temporal_hidden_dim: 64
+      modality_dropout: 0.2
+      max_epochs: 25
+      patience: 6
+    - id: "OPT2_09"
+      family: "CNNBiLSTMAttentionRUL"
+      learning_rate: 0.0005
+      loss: "HuberLoss"
+      huber_delta: 1.0
+      temporal_hidden_dim: 64
+      modality_dropout: 0.1
+      max_epochs: 25
+      patience: 6
+    - id: "OPT2_10"
+      family: "CNNBiLSTMAttentionRUL"
+      learning_rate: 0.001
+      loss: "HuberLoss"
+      huber_delta: 0.5
+      temporal_hidden_dim: 32
+      modality_dropout: 0.3
+      max_epochs: 25
+      patience: 8
+    - id: "OPT2_11"
+      family: "MainModel_NoAttention"
+      learning_rate: 0.001
+      loss: "HuberLoss"
+      huber_delta: 1.0
+      temporal_hidden_dim: 64
+      modality_dropout: 0.2
+      max_epochs: 25
+      patience: 6
+    - id: "OPT2_12"
+      family: "MainModel_NoAttention"
+      learning_rate: 0.0005
+      loss: "HuberLoss"
+      huber_delta: 1.0
+      temporal_hidden_dim: 32
+      modality_dropout: 0.2
+      max_epochs: 25
+      patience: 6
+
+

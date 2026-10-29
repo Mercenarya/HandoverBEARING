@@ -1,0 +1,63 @@
+{
+  "selection_protocol": "development_validation_bounded_optimization",
+  "search_budget": {
+    "max_screened_configurations": 12,
+    "actual_screened": 12,
+    "max_confirmed_finalists": 3,
+    "actual_confirmed": 3
+  },
+  "screening_folds": [
+    0,
+    2
+  ],
+  "confirmation_folds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "selection_rule": {
+    "primary_metric": "mean_endpoint_mae_s",
+    "tie_breaker_1": "mean_endpoint_rmse_s",
+    "tie_breaker_2": "endpoint_mae_std_s",
+    "tie_breaker_3": "trainable_parameters",
+    "tie_tolerance_seconds": 10.0
+  },
+  "top_3_finalists": [
+    "OPT_06",
+    "OPT_02",
+    "OPT_05"
+  ],
+  "winning_configuration": {
+    "candidate_id": "OPT_06",
+    "family": "VibrationOnlyBaseline",
+    "hyperparameters": {
+      "id": "OPT_06",
+      "family": "VibrationOnlyBaseline",
+      "learning_rate": 0.0005,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.0,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "mean_endpoint_mae_s": 359.9,
+    "mean_endpoint_rmse_s": 359.9,
+    "endpoint_mae_std_s": 342.6,
+    "trainable_parameters": 101089,
+    "selection_rationale": "Strict lowest 6-fold mean Endpoint MAE (359.9s)."
+  },
+  "comparison_to_baseline_reference": {
+    "baseline_empirical_winner": "LateConcatBaseline (1326.4s Endpoint MAE)",
+    "baseline_vibration_winner": "VibrationOnlyBaseline (1947.8s Endpoint RMSE)",
+    "baseline_main_model": "CNNBiLSTMAttentionRUL (2979.8s Endpoint MAE)",
+    "improvement_observed": true,
+    "winning_model_mae_s": 359.9,
+    "honest_reporting_statement": "Optimization demonstrated that Candidate OPT_06 (VibrationOnlyBaseline with lr=0.0005, hidden_dim=64, HuberLoss) achieved a 6-fold mean Endpoint MAE of 359.9s (+/- 342.6s), outperforming baseline LateConcat (1326.4s) and baseline VibrationOnly (1738.0s). Tuning the learning rate to 5e-4 on the vibration modality yielded a substantial error reduction on development validation folds."
+  },
+  "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+  "timestamp": "2026-10-23T19:21:16.963826+00:00"
+}

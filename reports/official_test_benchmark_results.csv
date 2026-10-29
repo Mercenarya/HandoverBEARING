@@ -1,0 +1,6 @@
+Model,Subgroup,Num Windows,Num Endpoints,Window MAE (s),Window RMSE (s),Endpoint MAE (s),Endpoint RMSE (s),IEEE PHM Score
+Random Forest (Handcrafted),Official Test Benchmark,866,11,6558.1,7645.7,3502.9,4378.0,0.11422
+CNNBiLSTMAttentionRUL (Seed 42),Official Test Benchmark,866,11,8450.9,10251.3,3751.8,5093.6,0.13292
+CNNBiLSTMAttentionRUL (Seed 123),Official Test Benchmark,866,11,8090.6,9772.5,2972.5,3529.0,0.09949
+CNNBiLSTMAttentionRUL (Seed 999),Official Test Benchmark,866,11,8447.1,10227.8,3349.9,4018.0,0.08955
+CNNBiLSTMAttentionRUL (Multi-Seed Ensemble),Official Test Benchmark,866,11,8191.5,10000.6,3264.0,4140.0,0.08465

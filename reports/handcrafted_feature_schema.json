@@ -1,0 +1,82 @@
+{
+  "feature_names": [
+    "horizontal_rms",
+    "horizontal_kurtosis",
+    "horizontal_crest_factor",
+    "horizontal_skewness",
+    "horizontal_peak_to_peak",
+    "horizontal_spectral_kurtosis_mean",
+    "horizontal_spectral_kurtosis_max",
+    "horizontal_spectral_kurtosis_peak_hz",
+    "horizontal_bpfo_h1_relative_bandpower",
+    "horizontal_bpfo_h2_relative_bandpower",
+    "horizontal_bpfo_h3_relative_bandpower",
+    "horizontal_bpfi_h1_relative_bandpower",
+    "horizontal_bpfi_h2_relative_bandpower",
+    "horizontal_bpfi_h3_relative_bandpower",
+    "horizontal_bsf_h1_relative_bandpower",
+    "horizontal_bsf_h2_relative_bandpower",
+    "horizontal_bsf_h3_relative_bandpower",
+    "vertical_rms",
+    "vertical_kurtosis",
+    "vertical_crest_factor",
+    "vertical_skewness",
+    "vertical_peak_to_peak",
+    "vertical_spectral_kurtosis_mean",
+    "vertical_spectral_kurtosis_max",
+    "vertical_spectral_kurtosis_peak_hz",
+    "vertical_bpfo_h1_relative_bandpower",
+    "vertical_bpfo_h2_relative_bandpower",
+    "vertical_bpfo_h3_relative_bandpower",
+    "vertical_bpfi_h1_relative_bandpower",
+    "vertical_bpfi_h2_relative_bandpower",
+    "vertical_bpfi_h3_relative_bandpower",
+    "vertical_bsf_h1_relative_bandpower",
+    "vertical_bsf_h2_relative_bandpower",
+    "vertical_bsf_h3_relative_bandpower",
+    "temperature_mean_c",
+    "temperature_gradient_c_per_s",
+    "temperature_rms_c"
+  ],
+  "bearing_characteristic_frequencies_hz": {
+    "OC1": {
+      "shaft": 30.0,
+      "bpfo": 168.33984375,
+      "bpfi": 221.66015625,
+      "bsf": 107.66350446428572
+    },
+    "OC2": {
+      "shaft": 27.5,
+      "bpfo": 154.3115234375,
+      "bpfi": 203.1884765625,
+      "bsf": 98.69154575892858
+    },
+    "OC3": {
+      "shaft": 25.0,
+      "bpfo": 140.283203125,
+      "bpfi": 184.716796875,
+      "bsf": 89.71958705357143
+    }
+  },
+  "harmonics": [
+    1,
+    2,
+    3
+  ],
+  "fault_band_half_width_hz": 10.0,
+  "spectral_kurtosis_segment_length": 256,
+  "bearing_geometry": {
+    "rolling_element_count": 13,
+    "rolling_element_diameter_mm": 3.5,
+    "pitch_diameter_mm": 25.6,
+    "contact_angle_deg": 0.0,
+    "source": "IEEE PHM 2012 Challenge Details Appendix A.1; contact angle is an explicit engineering assumption because the source does not state it"
+  },
+  "definitions": {
+    "kurtosis": "Pearson fourth standardized moment",
+    "spectral_kurtosis": "Pearson kurtosis of spectrogram power across time frames, summarized by mean, maximum, and peak frequency",
+    "fault_features": "relative Hilbert-envelope spectrum bandpower around BPFO, BPFI, BSF, and configured harmonics",
+    "temperature_gradient": "least-squares slope over valid causal temperature-history timestamps"
+  },
+  "normalization": "training-bearing mean and standard deviation per fold; missing temperature features map to zero after scaling"
+}

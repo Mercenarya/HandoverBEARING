@@ -1,0 +1,110 @@
+{
+  "timestamp": "2026-10-29T08:28:13.976525+00:00",
+  "selection_protocol": "development_validation_only",
+  "evaluated_development_folds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "selection_metric": "endpoint_mae_s",
+  "development_summary": [
+    {
+      "model": "CNNBiLSTMAttentionRUL",
+      "window_mae_s": 5396.8,
+      "window_rmse_s": 7929.6,
+      "endpoint_mae_s": 2979.8,
+      "endpoint_rmse_s": 3190.2,
+      "ieee_phm_score": null,
+      "evaluated_folds_count": 6
+    },
+    {
+      "model": "LateConcatBaseline",
+      "window_mae_s": 5248.4,
+      "window_rmse_s": 7420.4,
+      "endpoint_mae_s": 1326.4,
+      "endpoint_rmse_s": 1960.6,
+      "ieee_phm_score": null,
+      "evaluated_folds_count": 6
+    },
+    {
+      "model": "MainModel_NoAttention",
+      "window_mae_s": 5100.7,
+      "window_rmse_s": 7680.1,
+      "endpoint_mae_s": 2552.0,
+      "endpoint_rmse_s": 3072.2,
+      "ieee_phm_score": null,
+      "evaluated_folds_count": 6
+    },
+    {
+      "model": "MainModel_NoModalityDropout",
+      "window_mae_s": 5702.3,
+      "window_rmse_s": 8191.5,
+      "endpoint_mae_s": 4089.0,
+      "endpoint_rmse_s": 4783.9,
+      "ieee_phm_score": null,
+      "evaluated_folds_count": 6
+    },
+    {
+      "model": "TemperatureOnlyBaseline",
+      "window_mae_s": 5570.1,
+      "window_rmse_s": 7740.8,
+      "endpoint_mae_s": 5839.7,
+      "endpoint_rmse_s": 6011.6,
+      "ieee_phm_score": null,
+      "evaluated_folds_count": 6
+    },
+    {
+      "model": "VibrationOnlyBaseline",
+      "window_mae_s": 4964.8,
+      "window_rmse_s": 6987.3,
+      "endpoint_mae_s": 1738.0,
+      "endpoint_rmse_s": 1947.8,
+      "ieee_phm_score": null,
+      "evaluated_folds_count": 6
+    }
+  ],
+  "empirically_best_validation_model": {
+    "model_name": "LateConcatBaseline",
+    "endpoint_mae_s": 1326.4,
+    "endpoint_rmse_s": 1960.6,
+    "ieee_phm_score": null
+  },
+  "predetermined_target_model": {
+    "model_name": "CNNBiLSTMAttentionRUL",
+    "scientific_rationale": "While LateConcatBaseline achieved the lowest development validation endpoint MAE (1,326.4s) on the 6 development validation bearings, CNNBiLSTMAttentionRUL is the predetermined research target architecture specifically designed for multimodal sensor telemetry with missing-temperature availability gating and temporal self-attention pooling. CNNBiLSTMAttentionRUL is selected as the primary multimodal model for the official benchmark, while LateConcatBaseline is reported as the leading development baseline."
+  },
+  "frozen_official_configuration": {
+    "chosen_model": "CNNBiLSTMAttentionRUL",
+    "frozen_epoch_budget": 5,
+    "frozen_epoch_rule": {
+      "formula": "max(official_frozen_epoch_floor, int(round(median(main_model_best_epochs))))",
+      "official_frozen_epoch_floor": 5,
+      "observed_development_best_epochs": [
+        2,
+        3,
+        3,
+        6,
+        12,
+        2
+      ],
+      "observed_median": 3,
+      "frozen_epoch_budget": 5
+    },
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "gradient_clipping": 1.0,
+    "primary_loss": "HuberLoss",
+    "huber_delta": 1.0,
+    "modality_dropout": 0.2,
+    "seeds": [
+      42,
+      123,
+      999
+    ],
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2"
+  }
+}

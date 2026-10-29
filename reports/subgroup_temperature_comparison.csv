@@ -1,0 +1,5 @@
+Model,Subgroup,Num Windows,Num Endpoints,Window MAE (s),Window RMSE (s),Endpoint MAE (s),Endpoint RMSE (s),IEEE PHM Score
+Random Forest,Usable Temperature,644,8,6838.6,7882.6,3677.2,4592.8,0.05001
+Random Forest,Fully Missing Temperature,222,3,5744.4,6912.7,3038.3,3745.6,0.28544
+CNNBiLSTMAttentionRUL (Ensemble),Usable Temperature,644,8,9628.3,11197.0,3364.7,4315.6,0.08592
+CNNBiLSTMAttentionRUL (Ensemble),Fully Missing Temperature,222,3,4023.5,5142.0,2995.4,3630.5,0.08126

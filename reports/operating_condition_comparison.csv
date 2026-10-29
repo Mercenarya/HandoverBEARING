@@ -1,0 +1,19 @@
+split,model_name,condition_id,num_windows,num_endpoints,endpoint_mae_s,endpoint_rmse_s,ieee_phm_score
+development_validation,Random Forest,OC1,229,2,1647.9,1851.5,
+development_validation,Random Forest,OC2,105,2,4674.3,5044.5,
+development_validation,Random Forest,OC3,134,2,1339.3,1339.3,
+development_validation,LateConcatBaseline,OC1,229,2,2200.9,3112.5,
+development_validation,LateConcatBaseline,OC2,105,2,1173.5,1177.4,
+development_validation,LateConcatBaseline,OC3,134,2,604.7,676.4,
+development_validation,VibrationOnlyBaseline,OC1,229,2,1781.4,1906.1,
+development_validation,VibrationOnlyBaseline,OC2,105,2,1548.1,2047.9,
+development_validation,VibrationOnlyBaseline,OC3,134,2,1884.4,1885.5,
+development_validation,CNNBiLSTMAttentionRUL,OC1,229,2,3636.9,3786.0,
+development_validation,CNNBiLSTMAttentionRUL,OC2,105,2,3561.3,3628.1,
+development_validation,CNNBiLSTMAttentionRUL,OC3,134,2,1741.2,1742.0,
+official_test,Random Forest,OC1,562,5,2529.1,3222.1,0.18148
+official_test,Random Forest,OC2,283,5,4990.2,5622.3,0.0698
+official_test,Random Forest,OC3,21,1,935.8,935.8,0.0
+official_test,CNNBiLSTMAttentionRUL (Ensemble),OC1,562,5,2546.9,3073.6,0.08146
+official_test,CNNBiLSTMAttentionRUL (Ensemble),OC2,283,5,2921.4,3687.3,0.10478
+official_test,CNNBiLSTMAttentionRUL (Ensemble),OC3,21,1,8562.7,8562.7,0.0

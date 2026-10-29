@@ -1,0 +1,6 @@
+model_name,num_endpoints,within_10_percent_count,within_10_percent_rate,within_20_percent_count,within_20_percent_rate
+CNNBiLSTMAttentionRUL (Multi-Seed Ensemble),11,0,0.0,1,0.0909
+CNNBiLSTMAttentionRUL (Seed 123),11,0,0.0,1,0.0909
+CNNBiLSTMAttentionRUL (Seed 42),11,1,0.0909,2,0.1818
+CNNBiLSTMAttentionRUL (Seed 999),11,0,0.0,0,0.0
+Random Forest (Handcrafted),11,1,0.0909,1,0.0909

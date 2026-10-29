@@ -1,0 +1,94 @@
+{
+  "folds": [
+    {
+      "fold": "0",
+      "train_missing_temperature": [
+        "Bearing2_2",
+        "Bearing3_2"
+      ],
+      "validation_missing_temperature": [],
+      "test_missing_temperature": []
+    },
+    {
+      "fold": "1",
+      "train_missing_temperature": [
+        "Bearing2_2",
+        "Bearing3_2"
+      ],
+      "validation_missing_temperature": [],
+      "test_missing_temperature": []
+    },
+    {
+      "fold": "2",
+      "train_missing_temperature": [
+        "Bearing2_2",
+        "Bearing3_2"
+      ],
+      "validation_missing_temperature": [],
+      "test_missing_temperature": []
+    },
+    {
+      "fold": "3",
+      "train_missing_temperature": [
+        "Bearing3_2"
+      ],
+      "validation_missing_temperature": [
+        "Bearing2_2"
+      ],
+      "test_missing_temperature": []
+    },
+    {
+      "fold": "4",
+      "train_missing_temperature": [
+        "Bearing2_2",
+        "Bearing3_2"
+      ],
+      "validation_missing_temperature": [],
+      "test_missing_temperature": []
+    },
+    {
+      "fold": "5",
+      "train_missing_temperature": [
+        "Bearing2_2"
+      ],
+      "validation_missing_temperature": [
+        "Bearing3_2"
+      ],
+      "test_missing_temperature": []
+    },
+    {
+      "fold": "official",
+      "train_missing_temperature": [
+        "Bearing2_2",
+        "Bearing3_2"
+      ],
+      "validation_missing_temperature": [],
+      "test_missing_temperature": [
+        "Bearing1_3",
+        "Bearing2_3",
+        "Bearing2_6"
+      ]
+    }
+  ],
+  "fully_missing_bearings": [
+    "Bearing2_2",
+    "Bearing3_2",
+    "Bearing1_3",
+    "Bearing2_3",
+    "Bearing2_6"
+  ],
+  "official_test_fully_missing": 3,
+  "official_test_partially_missing": 8,
+  "missing_temperature_policy": {
+    "partial_history": "preserve_per_element_mask",
+    "fully_missing_bearing": "preserve_full_mask",
+    "standardized_fill_value": 0.0,
+    "fill_interpretation": "training_mean_after_zscore",
+    "cross_bearing_imputation": "forbidden",
+    "future_value_imputation": "forbidden",
+    "exported_masks": [
+      "temperature_mask",
+      "handcrafted_feature_mask"
+    ]
+  }
+}

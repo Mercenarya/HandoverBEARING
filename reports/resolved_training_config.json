@@ -1,0 +1,39 @@
+{
+  "experiment_name": "pronostia_rul_experiments",
+  "pipeline_version": "2.1.0-step21d",
+  "code_version": "step21d",
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "max_epochs": 100,
+  "early_stopping_patience": 15,
+  "development_max_epochs": 25,
+  "development_early_stopping_patience": 6,
+  "official_frozen_epoch_floor": 5,
+  "scheduler": "ReduceLROnPlateau",
+  "scheduler_patience": 5,
+  "scheduler_factor": 0.5,
+  "official_scheduler": "CosineAnnealingLR",
+  "official_scheduler_eta_min": 1e-05,
+  "gradient_clipping": 1.0,
+  "primary_loss": "HuberLoss",
+  "huber_delta": 1.0,
+  "modality_dropout": 0.2,
+  "development_seed": 42,
+  "final_evaluation_seeds": [
+    42,
+    123,
+    999
+  ],
+  "development_folds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+  "device": "cpu",
+  "config_hash": "24e2ad007d1859f4"
+}

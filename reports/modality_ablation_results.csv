@@ -1,0 +1,7 @@
+Model,Subgroup,Num Windows,Num Endpoints,Window MAE (s),Window RMSE (s),Endpoint MAE (s),Endpoint RMSE (s),IEEE PHM Score
+CNNBiLSTMAttentionRUL,Modality Ablation,468,6,5396.8,7929.6,2979.8,3190.2,
+MainModel_NoAttention,Modality Ablation,468,6,5100.7,7680.1,2552.0,3072.2,
+MainModel_NoModalityDropout,Modality Ablation,468,6,5702.3,8191.5,4089.0,4783.9,
+VibrationOnlyBaseline,Modality Ablation,468,6,4964.8,6987.3,1738.0,1947.8,
+TemperatureOnlyBaseline,Modality Ablation,468,6,5570.1,7740.8,5839.7,6011.6,
+LateConcatBaseline,Modality Ablation,468,6,5248.4,7420.4,1326.4,1960.6,

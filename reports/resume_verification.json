@@ -1,0 +1,61 @@
+{
+  "verification_name": "Controlled Interrupted/Resumed Training Fixture",
+  "timestamp": "2026-10-23T17:52:19.533127+00:00",
+  "status": "PASS",
+  "checks": {
+    "exact_resumption_from_next_epoch": {
+      "interrupted_at_epoch": 2,
+      "recorded_next_epoch": 3,
+      "actual_resumed_start_epoch": 3,
+      "status": "PASS"
+    },
+    "history_continuity": {
+      "expected_epochs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "actual_epochs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "status": "PASS"
+    },
+    "rng_and_state_restoration": {
+      "restored_components": [
+        "model_state_dict",
+        "optimizer_state_dict",
+        "scheduler_state_dict",
+        "rng_state_python",
+        "rng_state_numpy",
+        "rng_state_torch_cpu"
+      ],
+      "reproducibility_vs_uninterrupted_loss": {
+        "reference_losses": [
+          0.136598,
+          0.017583,
+          0.014894,
+          0.004786
+        ],
+        "resumed_losses": [
+          0.136598,
+          0.017583,
+          0.014894,
+          0.004786
+        ],
+        "max_absolute_loss_difference": 0.0
+      },
+      "status": "PASS"
+    },
+    "identity_validation": {
+      "config_hash_checked": true,
+      "model_config_checked": true,
+      "run_identity_checked": true,
+      "status": "PASS"
+    }
+  },
+  "conclusion": "Controlled resume verification confirms that an interrupted run reliably restores model weights, optimizer state, scheduler state, RNG state, and history, continuing precisely from next_epoch with identical loss trajectory."
+}

@@ -1,0 +1,13 @@
+candidate_id,family,learning_rate,loss,huber_delta,temporal_hidden_dim,modality_dropout,max_epochs,patience,screening_folds,screening_endpoint_mae_s,screening_endpoint_rmse_s,is_finalist,confirmed_6_fold_endpoint_mae_s,confirmed_6_fold_endpoint_rmse_s,confirmed_6_fold_endpoint_mae_std_s,trainable_parameters,selection_verdict
+OPT_01,LateConcatBaseline,0.001,HuberLoss,1.0,64,0.2,25,6,"[0, 2]",2009.2,2009.2,False,,,,255905,Eliminated in Screening
+OPT_02,LateConcatBaseline,0.0005,HuberLoss,1.0,64,0.2,25,6,"[0, 2]",563.3,563.3,True,1735.4,1735.4,1683.6,255905,Confirmed Finalist (Runner-up)
+OPT_03,LateConcatBaseline,0.001,MSELoss,0.0,64,0.2,25,6,"[0, 2]",2011.5,2011.5,False,,,,255905,Eliminated in Screening
+OPT_04,LateConcatBaseline,0.001,HuberLoss,0.5,32,0.2,25,6,"[0, 2]",2598.6,2598.6,False,,,,100193,Eliminated in Screening
+OPT_05,VibrationOnlyBaseline,0.001,HuberLoss,1.0,64,0.0,25,6,"[0, 2]",1548.7,1548.7,True,1459.2,1459.2,719.8,101089,Confirmed Finalist (Runner-up)
+OPT_06,VibrationOnlyBaseline,0.0005,HuberLoss,1.0,64,0.0,25,6,"[0, 2]",515.9,515.9,True,359.9,359.9,342.6,101089,Selected as Winning Configuration
+OPT_07,VibrationOnlyBaseline,0.001,HuberLoss,1.0,32,0.0,25,6,"[0, 2]",4369.0,4369.0,False,,,,58561,Eliminated in Screening
+OPT_08,CNNBiLSTMAttentionRUL,0.001,HuberLoss,1.0,64,0.2,25,6,"[0, 2]",5431.4,5431.4,False,,,,121954,Eliminated in Screening
+OPT_09,CNNBiLSTMAttentionRUL,0.0005,HuberLoss,1.0,64,0.1,25,6,"[0, 2]",5493.4,5493.4,False,,,,121954,Eliminated in Screening
+OPT_10,CNNBiLSTMAttentionRUL,0.001,HuberLoss,0.5,32,0.3,25,8,"[0, 2]",4945.8,4945.8,False,,,,65986,Eliminated in Screening
+OPT_11,MainModel_NoAttention,0.001,HuberLoss,1.0,64,0.2,25,6,"[0, 2]",3212.2,3212.2,False,,,,121889,Eliminated in Screening
+OPT_12,MainModel_NoAttention,0.0005,HuberLoss,1.0,32,0.2,25,6,"[0, 2]",3951.6,3951.6,False,,,,65953,Eliminated in Screening

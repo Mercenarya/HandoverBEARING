@@ -1,0 +1,49 @@
+{
+  "naive_baseline": {
+    "model": "NaiveMedianBaseline",
+    "window_mae_s": 6043.354700854701,
+    "window_rmse_s": 8241.765937542195,
+    "endpoint_mae_s": 6401.666666666667,
+    "endpoint_rmse_s": 6460.754599890016,
+    "ieee_phm_score": null
+  },
+  "random_forest_baseline": {
+    "model": "RandomForestBaseline",
+    "window_mae_s": 6859.794229363512,
+    "window_rmse_s": 8930.625927474728,
+    "endpoint_mae_s": 2553.830944920658,
+    "endpoint_rmse_s": 3197.318812473311,
+    "ieee_phm_score": null
+  },
+  "selected_rf_hyperparameters": {
+    "n_estimators": 50,
+    "max_depth": 5,
+    "min_samples_split": 2,
+    "random_state": 42
+  },
+  "schema_columns": [
+    "run_id",
+    "model_name",
+    "fold",
+    "split",
+    "seed",
+    "bearing_id",
+    "condition_id",
+    "endpoint_acquisition_index",
+    "endpoint_timestamp",
+    "actual_rul_seconds",
+    "predicted_rul_seconds",
+    "absolute_error_seconds",
+    "is_temperature_fully_missing",
+    "is_final_endpoint"
+  ],
+  "total_predictions": 468,
+  "dev_folds_evaluated": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

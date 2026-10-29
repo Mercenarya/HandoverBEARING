@@ -1,0 +1,10 @@
+{
+  "best_parameters": {
+    "n_estimators": 50,
+    "max_depth": 5,
+    "min_samples_split": 2,
+    "random_state": 42
+  },
+  "best_val_mae_seconds": 6251.6752194981045,
+  "evaluated_candidates_count": 24
+}

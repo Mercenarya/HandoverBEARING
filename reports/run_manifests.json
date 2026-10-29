@@ -1,0 +1,3772 @@
+[
+  {
+    "run_id": "cnnbilstmattentionrul_fold_0",
+    "model_name": "CNNBiLSTMAttentionRUL",
+    "split_identity": "fold_0",
+    "seed": 42,
+    "run_identity_hash": "a5464685a98ca7db",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "CNNBiLSTMAttentionRUL",
+      "model_kwargs": {},
+      "architecture": "CNNBiLSTMAttentionRUL"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_CNNBiLSTMAttentionRUL_fold_0.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_CNNBiLSTMAttentionRUL_fold_0.pt",
+    "total_epochs_trained": 8,
+    "best_epoch": 2,
+    "best_val_loss": 0.286207,
+    "completion_status": "completed",
+    "history_epochs_count": 8,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "cnnbilstmattentionrul_fold_1",
+    "model_name": "CNNBiLSTMAttentionRUL",
+    "split_identity": "fold_1",
+    "seed": 42,
+    "run_identity_hash": "9d750b8c878c2f08",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "CNNBiLSTMAttentionRUL",
+      "model_kwargs": {},
+      "architecture": "CNNBiLSTMAttentionRUL"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_CNNBiLSTMAttentionRUL_fold_1.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_CNNBiLSTMAttentionRUL_fold_1.pt",
+    "total_epochs_trained": 9,
+    "best_epoch": 3,
+    "best_val_loss": 0.004436,
+    "completion_status": "completed",
+    "history_epochs_count": 9,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "cnnbilstmattentionrul_fold_2",
+    "model_name": "CNNBiLSTMAttentionRUL",
+    "split_identity": "fold_2",
+    "seed": 42,
+    "run_identity_hash": "521ca27a0e2f40ab",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "CNNBiLSTMAttentionRUL",
+      "model_kwargs": {},
+      "architecture": "CNNBiLSTMAttentionRUL"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_CNNBiLSTMAttentionRUL_fold_2.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_CNNBiLSTMAttentionRUL_fold_2.pt",
+    "total_epochs_trained": 9,
+    "best_epoch": 3,
+    "best_val_loss": 0.003432,
+    "completion_status": "completed",
+    "history_epochs_count": 9,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "cnnbilstmattentionrul_fold_3",
+    "model_name": "CNNBiLSTMAttentionRUL",
+    "split_identity": "fold_3",
+    "seed": 42,
+    "run_identity_hash": "d087953ca34021b3",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "CNNBiLSTMAttentionRUL",
+      "model_kwargs": {},
+      "architecture": "CNNBiLSTMAttentionRUL"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_CNNBiLSTMAttentionRUL_fold_3.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_CNNBiLSTMAttentionRUL_fold_3.pt",
+    "total_epochs_trained": 12,
+    "best_epoch": 6,
+    "best_val_loss": 0.005723,
+    "completion_status": "completed",
+    "history_epochs_count": 12,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "cnnbilstmattentionrul_fold_4",
+    "model_name": "CNNBiLSTMAttentionRUL",
+    "split_identity": "fold_4",
+    "seed": 42,
+    "run_identity_hash": "1e154e7af55dd28b",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "CNNBiLSTMAttentionRUL",
+      "model_kwargs": {},
+      "architecture": "CNNBiLSTMAttentionRUL"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_CNNBiLSTMAttentionRUL_fold_4.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_CNNBiLSTMAttentionRUL_fold_4.pt",
+    "total_epochs_trained": 18,
+    "best_epoch": 12,
+    "best_val_loss": 0.001332,
+    "completion_status": "completed",
+    "history_epochs_count": 18,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "cnnbilstmattentionrul_fold_5",
+    "model_name": "CNNBiLSTMAttentionRUL",
+    "split_identity": "fold_5",
+    "seed": 42,
+    "run_identity_hash": "de9bc393363b3f06",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "CNNBiLSTMAttentionRUL",
+      "model_kwargs": {},
+      "architecture": "CNNBiLSTMAttentionRUL"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_CNNBiLSTMAttentionRUL_fold_5.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_CNNBiLSTMAttentionRUL_fold_5.pt",
+    "total_epochs_trained": 8,
+    "best_epoch": 2,
+    "best_val_loss": 0.011001,
+    "completion_status": "completed",
+    "history_epochs_count": 8,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "mainmodel_noattention_fold_0",
+    "model_name": "MainModel_NoAttention",
+    "split_identity": "fold_0",
+    "seed": 42,
+    "run_identity_hash": "442d18d96a99bd5e",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "MainModel_NoAttention",
+      "model_kwargs": {
+        "use_attention": false
+      },
+      "architecture": "CNNBiLSTMAttentionRUL"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_MainModel_NoAttention_fold_0.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_MainModel_NoAttention_fold_0.pt",
+    "total_epochs_trained": 8,
+    "best_epoch": 2,
+    "best_val_loss": 0.264999,
+    "completion_status": "completed",
+    "history_epochs_count": 8,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "mainmodel_noattention_fold_1",
+    "model_name": "MainModel_NoAttention",
+    "split_identity": "fold_1",
+    "seed": 42,
+    "run_identity_hash": "fd754c2e66a9f309",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "MainModel_NoAttention",
+      "model_kwargs": {
+        "use_attention": false
+      },
+      "architecture": "CNNBiLSTMAttentionRUL"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_MainModel_NoAttention_fold_1.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_MainModel_NoAttention_fold_1.pt",
+    "total_epochs_trained": 13,
+    "best_epoch": 7,
+    "best_val_loss": 0.005147,
+    "completion_status": "completed",
+    "history_epochs_count": 13,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "mainmodel_noattention_fold_2",
+    "model_name": "MainModel_NoAttention",
+    "split_identity": "fold_2",
+    "seed": 42,
+    "run_identity_hash": "0903e1a6e0f92005",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "MainModel_NoAttention",
+      "model_kwargs": {
+        "use_attention": false
+      },
+      "architecture": "CNNBiLSTMAttentionRUL"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_MainModel_NoAttention_fold_2.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_MainModel_NoAttention_fold_2.pt",
+    "total_epochs_trained": 9,
+    "best_epoch": 3,
+    "best_val_loss": 0.00216,
+    "completion_status": "completed",
+    "history_epochs_count": 9,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "mainmodel_noattention_fold_3",
+    "model_name": "MainModel_NoAttention",
+    "split_identity": "fold_3",
+    "seed": 42,
+    "run_identity_hash": "61f9cc422d73179c",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "MainModel_NoAttention",
+      "model_kwargs": {
+        "use_attention": false
+      },
+      "architecture": "CNNBiLSTMAttentionRUL"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_MainModel_NoAttention_fold_3.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_MainModel_NoAttention_fold_3.pt",
+    "total_epochs_trained": 22,
+    "best_epoch": 16,
+    "best_val_loss": 0.001608,
+    "completion_status": "completed",
+    "history_epochs_count": 22,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "mainmodel_noattention_fold_4",
+    "model_name": "MainModel_NoAttention",
+    "split_identity": "fold_4",
+    "seed": 42,
+    "run_identity_hash": "981c7bf62c1f050f",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "MainModel_NoAttention",
+      "model_kwargs": {
+        "use_attention": false
+      },
+      "architecture": "CNNBiLSTMAttentionRUL"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_MainModel_NoAttention_fold_4.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_MainModel_NoAttention_fold_4.pt",
+    "total_epochs_trained": 24,
+    "best_epoch": 18,
+    "best_val_loss": 0.001892,
+    "completion_status": "completed",
+    "history_epochs_count": 24,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "mainmodel_noattention_fold_5",
+    "model_name": "MainModel_NoAttention",
+    "split_identity": "fold_5",
+    "seed": 42,
+    "run_identity_hash": "e332e8bc2f488519",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "MainModel_NoAttention",
+      "model_kwargs": {
+        "use_attention": false
+      },
+      "architecture": "CNNBiLSTMAttentionRUL"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_MainModel_NoAttention_fold_5.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_MainModel_NoAttention_fold_5.pt",
+    "total_epochs_trained": 9,
+    "best_epoch": 3,
+    "best_val_loss": 0.015158,
+    "completion_status": "completed",
+    "history_epochs_count": 9,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "mainmodel_nomodalitydropout_fold_0",
+    "model_name": "MainModel_NoModalityDropout",
+    "split_identity": "fold_0",
+    "seed": 42,
+    "run_identity_hash": "79a8c3b5509f7681",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "MainModel_NoModalityDropout",
+      "model_kwargs": {
+        "modality_dropout": 0.0
+      },
+      "architecture": "CNNBiLSTMAttentionRUL"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_MainModel_NoModalityDropout_fold_0.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_MainModel_NoModalityDropout_fold_0.pt",
+    "total_epochs_trained": 7,
+    "best_epoch": 1,
+    "best_val_loss": 0.297072,
+    "completion_status": "completed",
+    "history_epochs_count": 7,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "mainmodel_nomodalitydropout_fold_1",
+    "model_name": "MainModel_NoModalityDropout",
+    "split_identity": "fold_1",
+    "seed": 42,
+    "run_identity_hash": "c54f62c89a434244",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "MainModel_NoModalityDropout",
+      "model_kwargs": {
+        "modality_dropout": 0.0
+      },
+      "architecture": "CNNBiLSTMAttentionRUL"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_MainModel_NoModalityDropout_fold_1.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_MainModel_NoModalityDropout_fold_1.pt",
+    "total_epochs_trained": 9,
+    "best_epoch": 3,
+    "best_val_loss": 0.00576,
+    "completion_status": "completed",
+    "history_epochs_count": 9,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "mainmodel_nomodalitydropout_fold_2",
+    "model_name": "MainModel_NoModalityDropout",
+    "split_identity": "fold_2",
+    "seed": 42,
+    "run_identity_hash": "59f1c58d996336e2",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "MainModel_NoModalityDropout",
+      "model_kwargs": {
+        "modality_dropout": 0.0
+      },
+      "architecture": "CNNBiLSTMAttentionRUL"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_MainModel_NoModalityDropout_fold_2.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_MainModel_NoModalityDropout_fold_2.pt",
+    "total_epochs_trained": 9,
+    "best_epoch": 3,
+    "best_val_loss": 0.003105,
+    "completion_status": "completed",
+    "history_epochs_count": 9,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "mainmodel_nomodalitydropout_fold_3",
+    "model_name": "MainModel_NoModalityDropout",
+    "split_identity": "fold_3",
+    "seed": 42,
+    "run_identity_hash": "847c58d511654d7a",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "MainModel_NoModalityDropout",
+      "model_kwargs": {
+        "modality_dropout": 0.0
+      },
+      "architecture": "CNNBiLSTMAttentionRUL"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_MainModel_NoModalityDropout_fold_3.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_MainModel_NoModalityDropout_fold_3.pt",
+    "total_epochs_trained": 21,
+    "best_epoch": 15,
+    "best_val_loss": 0.009878,
+    "completion_status": "completed",
+    "history_epochs_count": 21,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "mainmodel_nomodalitydropout_fold_4",
+    "model_name": "MainModel_NoModalityDropout",
+    "split_identity": "fold_4",
+    "seed": 42,
+    "run_identity_hash": "0cf6c019a64a812e",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "MainModel_NoModalityDropout",
+      "model_kwargs": {
+        "modality_dropout": 0.0
+      },
+      "architecture": "CNNBiLSTMAttentionRUL"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_MainModel_NoModalityDropout_fold_4.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_MainModel_NoModalityDropout_fold_4.pt",
+    "total_epochs_trained": 17,
+    "best_epoch": 11,
+    "best_val_loss": 0.003072,
+    "completion_status": "completed",
+    "history_epochs_count": 17,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "mainmodel_nomodalitydropout_fold_5",
+    "model_name": "MainModel_NoModalityDropout",
+    "split_identity": "fold_5",
+    "seed": 42,
+    "run_identity_hash": "d096e3d644fce320",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "MainModel_NoModalityDropout",
+      "model_kwargs": {
+        "modality_dropout": 0.0
+      },
+      "architecture": "CNNBiLSTMAttentionRUL"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_MainModel_NoModalityDropout_fold_5.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_MainModel_NoModalityDropout_fold_5.pt",
+    "total_epochs_trained": 7,
+    "best_epoch": 1,
+    "best_val_loss": 0.013814,
+    "completion_status": "completed",
+    "history_epochs_count": 7,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "vibrationonlybaseline_fold_0",
+    "model_name": "VibrationOnlyBaseline",
+    "split_identity": "fold_0",
+    "seed": 42,
+    "run_identity_hash": "19cc01ea4b6a8228",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "VibrationOnlyBaseline",
+      "model_kwargs": {},
+      "architecture": "VibrationOnlyBaselineModel"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_VibrationOnlyBaseline_fold_0.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_VibrationOnlyBaseline_fold_0.pt",
+    "total_epochs_trained": 9,
+    "best_epoch": 3,
+    "best_val_loss": 0.215221,
+    "completion_status": "completed",
+    "history_epochs_count": 9,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "vibrationonlybaseline_fold_1",
+    "model_name": "VibrationOnlyBaseline",
+    "split_identity": "fold_1",
+    "seed": 42,
+    "run_identity_hash": "8445a0d6e53ecb41",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "VibrationOnlyBaseline",
+      "model_kwargs": {},
+      "architecture": "VibrationOnlyBaselineModel"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_VibrationOnlyBaseline_fold_1.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_VibrationOnlyBaseline_fold_1.pt",
+    "total_epochs_trained": 9,
+    "best_epoch": 3,
+    "best_val_loss": 0.003352,
+    "completion_status": "completed",
+    "history_epochs_count": 9,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "vibrationonlybaseline_fold_2",
+    "model_name": "VibrationOnlyBaseline",
+    "split_identity": "fold_2",
+    "seed": 42,
+    "run_identity_hash": "0b64e578d4ef5a31",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "VibrationOnlyBaseline",
+      "model_kwargs": {},
+      "architecture": "VibrationOnlyBaselineModel"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_VibrationOnlyBaseline_fold_2.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_VibrationOnlyBaseline_fold_2.pt",
+    "total_epochs_trained": 7,
+    "best_epoch": 1,
+    "best_val_loss": 0.004982,
+    "completion_status": "completed",
+    "history_epochs_count": 7,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "vibrationonlybaseline_fold_3",
+    "model_name": "VibrationOnlyBaseline",
+    "split_identity": "fold_3",
+    "seed": 42,
+    "run_identity_hash": "82dc4318b6557ff6",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "VibrationOnlyBaseline",
+      "model_kwargs": {},
+      "architecture": "VibrationOnlyBaselineModel"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_VibrationOnlyBaseline_fold_3.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_VibrationOnlyBaseline_fold_3.pt",
+    "total_epochs_trained": 18,
+    "best_epoch": 12,
+    "best_val_loss": 0.001175,
+    "completion_status": "completed",
+    "history_epochs_count": 18,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "vibrationonlybaseline_fold_4",
+    "model_name": "VibrationOnlyBaseline",
+    "split_identity": "fold_4",
+    "seed": 42,
+    "run_identity_hash": "2a484a3501aacf06",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "VibrationOnlyBaseline",
+      "model_kwargs": {},
+      "architecture": "VibrationOnlyBaselineModel"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_VibrationOnlyBaseline_fold_4.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_VibrationOnlyBaseline_fold_4.pt",
+    "total_epochs_trained": 13,
+    "best_epoch": 7,
+    "best_val_loss": 0.007101,
+    "completion_status": "completed",
+    "history_epochs_count": 13,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "vibrationonlybaseline_fold_5",
+    "model_name": "VibrationOnlyBaseline",
+    "split_identity": "fold_5",
+    "seed": 42,
+    "run_identity_hash": "df96d1298b053bef",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "VibrationOnlyBaseline",
+      "model_kwargs": {},
+      "architecture": "VibrationOnlyBaselineModel"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_VibrationOnlyBaseline_fold_5.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_VibrationOnlyBaseline_fold_5.pt",
+    "total_epochs_trained": 7,
+    "best_epoch": 1,
+    "best_val_loss": 0.014016,
+    "completion_status": "completed",
+    "history_epochs_count": 7,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "temperatureonlybaseline_fold_0",
+    "model_name": "TemperatureOnlyBaseline",
+    "split_identity": "fold_0",
+    "seed": 42,
+    "run_identity_hash": "472ebf463f4f23cf",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "TemperatureOnlyBaseline",
+      "model_kwargs": {},
+      "architecture": "TemperatureOnlyBaselineModel"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_TemperatureOnlyBaseline_fold_0.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_TemperatureOnlyBaseline_fold_0.pt",
+    "total_epochs_trained": 8,
+    "best_epoch": 2,
+    "best_val_loss": 0.258069,
+    "completion_status": "completed",
+    "history_epochs_count": 8,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "temperatureonlybaseline_fold_1",
+    "model_name": "TemperatureOnlyBaseline",
+    "split_identity": "fold_1",
+    "seed": 42,
+    "run_identity_hash": "799f79365529414a",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "TemperatureOnlyBaseline",
+      "model_kwargs": {},
+      "architecture": "TemperatureOnlyBaselineModel"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_TemperatureOnlyBaseline_fold_1.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_TemperatureOnlyBaseline_fold_1.pt",
+    "total_epochs_trained": 7,
+    "best_epoch": 1,
+    "best_val_loss": 0.004911,
+    "completion_status": "completed",
+    "history_epochs_count": 7,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "temperatureonlybaseline_fold_2",
+    "model_name": "TemperatureOnlyBaseline",
+    "split_identity": "fold_2",
+    "seed": 42,
+    "run_identity_hash": "85b91d0407673b8f",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "TemperatureOnlyBaseline",
+      "model_kwargs": {},
+      "architecture": "TemperatureOnlyBaselineModel"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_TemperatureOnlyBaseline_fold_2.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_TemperatureOnlyBaseline_fold_2.pt",
+    "total_epochs_trained": 12,
+    "best_epoch": 6,
+    "best_val_loss": 0.005495,
+    "completion_status": "completed",
+    "history_epochs_count": 12,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "temperatureonlybaseline_fold_3",
+    "model_name": "TemperatureOnlyBaseline",
+    "split_identity": "fold_3",
+    "seed": 42,
+    "run_identity_hash": "616b37ca3ecbc467",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "TemperatureOnlyBaseline",
+      "model_kwargs": {},
+      "architecture": "TemperatureOnlyBaselineModel"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_TemperatureOnlyBaseline_fold_3.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_TemperatureOnlyBaseline_fold_3.pt",
+    "total_epochs_trained": 13,
+    "best_epoch": 7,
+    "best_val_loss": 0.01061,
+    "completion_status": "completed",
+    "history_epochs_count": 13,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "temperatureonlybaseline_fold_4",
+    "model_name": "TemperatureOnlyBaseline",
+    "split_identity": "fold_4",
+    "seed": 42,
+    "run_identity_hash": "ba67f6b5b29f45ca",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "TemperatureOnlyBaseline",
+      "model_kwargs": {},
+      "architecture": "TemperatureOnlyBaselineModel"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_TemperatureOnlyBaseline_fold_4.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_TemperatureOnlyBaseline_fold_4.pt",
+    "total_epochs_trained": 11,
+    "best_epoch": 5,
+    "best_val_loss": 0.007584,
+    "completion_status": "completed",
+    "history_epochs_count": 11,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "temperatureonlybaseline_fold_5",
+    "model_name": "TemperatureOnlyBaseline",
+    "split_identity": "fold_5",
+    "seed": 42,
+    "run_identity_hash": "2ecf5b024294d8d5",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "TemperatureOnlyBaseline",
+      "model_kwargs": {},
+      "architecture": "TemperatureOnlyBaselineModel"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_TemperatureOnlyBaseline_fold_5.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_TemperatureOnlyBaseline_fold_5.pt",
+    "total_epochs_trained": 8,
+    "best_epoch": 2,
+    "best_val_loss": 0.01453,
+    "completion_status": "completed",
+    "history_epochs_count": 8,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "lateconcatbaseline_fold_0",
+    "model_name": "LateConcatBaseline",
+    "split_identity": "fold_0",
+    "seed": 42,
+    "run_identity_hash": "f1944b74ad876ebd",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "LateConcatBaseline",
+      "model_kwargs": {},
+      "architecture": "LateConcatenationBaselineModel"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_LateConcatBaseline_fold_0.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_LateConcatBaseline_fold_0.pt",
+    "total_epochs_trained": 7,
+    "best_epoch": 1,
+    "best_val_loss": 0.241842,
+    "completion_status": "completed",
+    "history_epochs_count": 7,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "lateconcatbaseline_fold_1",
+    "model_name": "LateConcatBaseline",
+    "split_identity": "fold_1",
+    "seed": 42,
+    "run_identity_hash": "a677702b4b46afec",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "LateConcatBaseline",
+      "model_kwargs": {},
+      "architecture": "LateConcatenationBaselineModel"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_LateConcatBaseline_fold_1.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_LateConcatBaseline_fold_1.pt",
+    "total_epochs_trained": 10,
+    "best_epoch": 4,
+    "best_val_loss": 0.005456,
+    "completion_status": "completed",
+    "history_epochs_count": 10,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "lateconcatbaseline_fold_2",
+    "model_name": "LateConcatBaseline",
+    "split_identity": "fold_2",
+    "seed": 42,
+    "run_identity_hash": "f06845fd3d14c376",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "LateConcatBaseline",
+      "model_kwargs": {},
+      "architecture": "LateConcatenationBaselineModel"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_LateConcatBaseline_fold_2.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_LateConcatBaseline_fold_2.pt",
+    "total_epochs_trained": 9,
+    "best_epoch": 3,
+    "best_val_loss": 0.003176,
+    "completion_status": "completed",
+    "history_epochs_count": 9,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "lateconcatbaseline_fold_3",
+    "model_name": "LateConcatBaseline",
+    "split_identity": "fold_3",
+    "seed": 42,
+    "run_identity_hash": "d60d3b5848ec4c63",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "LateConcatBaseline",
+      "model_kwargs": {},
+      "architecture": "LateConcatenationBaselineModel"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_LateConcatBaseline_fold_3.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_LateConcatBaseline_fold_3.pt",
+    "total_epochs_trained": 14,
+    "best_epoch": 8,
+    "best_val_loss": 0.006186,
+    "completion_status": "completed",
+    "history_epochs_count": 14,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "lateconcatbaseline_fold_4",
+    "model_name": "LateConcatBaseline",
+    "split_identity": "fold_4",
+    "seed": 42,
+    "run_identity_hash": "d52633a4413fbe82",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "LateConcatBaseline",
+      "model_kwargs": {},
+      "architecture": "LateConcatenationBaselineModel"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_LateConcatBaseline_fold_4.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_LateConcatBaseline_fold_4.pt",
+    "total_epochs_trained": 13,
+    "best_epoch": 7,
+    "best_val_loss": 0.003896,
+    "completion_status": "completed",
+    "history_epochs_count": 13,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "lateconcatbaseline_fold_5",
+    "model_name": "LateConcatBaseline",
+    "split_identity": "fold_5",
+    "seed": 42,
+    "run_identity_hash": "2d0ecf4c338970c8",
+    "config_hash": "24e2ad007d1859f4",
+    "model_config": {
+      "model_name": "LateConcatBaseline",
+      "model_kwargs": {},
+      "architecture": "LateConcatenationBaselineModel"
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_LateConcatBaseline_fold_5.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_LateConcatBaseline_fold_5.pt",
+    "total_epochs_trained": 7,
+    "best_epoch": 1,
+    "best_val_loss": 0.013944,
+    "completion_status": "completed",
+    "history_epochs_count": 7,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/deep_learning_dev_predictions.csv"
+  },
+  {
+    "run_id": "cnn_bilstm_attention_official_seed_42",
+    "model_name": "CNNBiLSTMAttentionRUL",
+    "split_identity": "official_learning",
+    "seed": 42,
+    "run_identity_hash": "8af900610729abcc",
+    "config_hash": "f6736e6a5cdc6847",
+    "model_config": {
+      "model_name": "CNNBiLSTMAttentionRUL",
+      "hidden_dim": 64,
+      "modality_dropout": 0.2,
+      "use_attention": true,
+      "frozen_epochs": 5
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_CNNBiLSTMAttentionRUL_seed42_fold_official.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_CNNBiLSTMAttentionRUL_seed42_fold_official.pt",
+    "total_epochs_trained": 5,
+    "best_epoch": 5,
+    "best_val_loss": null,
+    "completion_status": "completed",
+    "history_epochs_count": 5,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/official_test_predictions.csv"
+  },
+  {
+    "run_id": "cnn_bilstm_attention_official_seed_123",
+    "model_name": "CNNBiLSTMAttentionRUL",
+    "split_identity": "official_learning",
+    "seed": 123,
+    "run_identity_hash": "0cb323d1d5956108",
+    "config_hash": "f6736e6a5cdc6847",
+    "model_config": {
+      "model_name": "CNNBiLSTMAttentionRUL",
+      "hidden_dim": 64,
+      "modality_dropout": 0.2,
+      "use_attention": true,
+      "frozen_epochs": 5
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_CNNBiLSTMAttentionRUL_seed123_fold_official.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_CNNBiLSTMAttentionRUL_seed123_fold_official.pt",
+    "total_epochs_trained": 5,
+    "best_epoch": 5,
+    "best_val_loss": null,
+    "completion_status": "completed",
+    "history_epochs_count": 5,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/official_test_predictions.csv"
+  },
+  {
+    "run_id": "cnn_bilstm_attention_official_seed_999",
+    "model_name": "CNNBiLSTMAttentionRUL",
+    "split_identity": "official_learning",
+    "seed": 999,
+    "run_identity_hash": "be71eb5b45aa0801",
+    "config_hash": "f6736e6a5cdc6847",
+    "model_config": {
+      "model_name": "CNNBiLSTMAttentionRUL",
+      "hidden_dim": 64,
+      "modality_dropout": 0.2,
+      "use_attention": true,
+      "frozen_epochs": 5
+    },
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "resolved_config_path": "<PROJECT_ROOT>/customer_handover/reports/resolved_training_config.json",
+    "environment_path": "<PROJECT_ROOT>/customer_handover/reports/environment.json",
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_CNNBiLSTMAttentionRUL_seed999_fold_official.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_CNNBiLSTMAttentionRUL_seed999_fold_official.pt",
+    "total_epochs_trained": 5,
+    "best_epoch": 5,
+    "best_val_loss": null,
+    "completion_status": "completed",
+    "history_epochs_count": 5,
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/official_test_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_01_fold_0",
+    "candidate_id": "OPT2_01",
+    "model_name": "LateConcatBaseline",
+    "stage": "screening",
+    "fold": 0,
+    "seed": 42,
+    "split_identity": "fold_0",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_01",
+      "family": "LateConcatBaseline",
+      "model_config": {
+        "family": "LateConcatBaseline",
+        "huber_delta": 1.0,
+        "id": "OPT2_01",
+        "learning_rate": 0.001,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.2,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_0",
+      "fold": 0,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "7decab54cbc7516c6c7b7a37d3fd3f3df52567d247daf1dcbdd0668c6369447d",
+    "legacy_candidate_hash": "fe7043af32f52aee",
+    "config_hash": "7decab54cbc7516c6c7b7a37d3fd3f3df52567d247daf1dcbdd0668c6369447d",
+    "model_config": {
+      "id": "OPT2_01",
+      "family": "LateConcatBaseline",
+      "learning_rate": 0.001,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.2,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 7,
+    "best_epoch": 1,
+    "best_val_loss": 0.325815,
+    "history_epochs_count": 7,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_01_fold_0.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_01_fold_0.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_01_fold_2",
+    "candidate_id": "OPT2_01",
+    "model_name": "LateConcatBaseline",
+    "stage": "screening",
+    "fold": 2,
+    "seed": 42,
+    "split_identity": "fold_2",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_01",
+      "family": "LateConcatBaseline",
+      "model_config": {
+        "family": "LateConcatBaseline",
+        "huber_delta": 1.0,
+        "id": "OPT2_01",
+        "learning_rate": 0.001,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.2,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_2",
+      "fold": 2,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "829759bf7a8800c95c780629269e32250a57777feb3725d2511bad62c3ba3a2d",
+    "legacy_candidate_hash": "fe7043af32f52aee",
+    "config_hash": "829759bf7a8800c95c780629269e32250a57777feb3725d2511bad62c3ba3a2d",
+    "model_config": {
+      "id": "OPT2_01",
+      "family": "LateConcatBaseline",
+      "learning_rate": 0.001,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.2,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 13,
+    "best_epoch": 7,
+    "best_val_loss": 0.002286,
+    "history_epochs_count": 13,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_01_fold_2.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_01_fold_2.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_02_fold_0",
+    "candidate_id": "OPT2_02",
+    "model_name": "LateConcatBaseline",
+    "stage": "screening",
+    "fold": 0,
+    "seed": 42,
+    "split_identity": "fold_0",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_02",
+      "family": "LateConcatBaseline",
+      "model_config": {
+        "family": "LateConcatBaseline",
+        "huber_delta": 1.0,
+        "id": "OPT2_02",
+        "learning_rate": 0.0005,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.2,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_0",
+      "fold": 0,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "3cdc064149639dc808515233c6bf40ec8b2d17a7bb7ce75784eb56668a38afbf",
+    "legacy_candidate_hash": "5d224c35333368c2",
+    "config_hash": "3cdc064149639dc808515233c6bf40ec8b2d17a7bb7ce75784eb56668a38afbf",
+    "model_config": {
+      "id": "OPT2_02",
+      "family": "LateConcatBaseline",
+      "learning_rate": 0.0005,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.2,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 10,
+    "best_epoch": 4,
+    "best_val_loss": 0.330089,
+    "history_epochs_count": 10,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_02_fold_0.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_02_fold_0.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_02_fold_2",
+    "candidate_id": "OPT2_02",
+    "model_name": "LateConcatBaseline",
+    "stage": "screening",
+    "fold": 2,
+    "seed": 42,
+    "split_identity": "fold_2",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_02",
+      "family": "LateConcatBaseline",
+      "model_config": {
+        "family": "LateConcatBaseline",
+        "huber_delta": 1.0,
+        "id": "OPT2_02",
+        "learning_rate": 0.0005,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.2,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_2",
+      "fold": 2,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "c02e80bb35f8fc003861c8b3d28db1cea368791f7a04e7ec03fb8cf1bc71c979",
+    "legacy_candidate_hash": "5d224c35333368c2",
+    "config_hash": "c02e80bb35f8fc003861c8b3d28db1cea368791f7a04e7ec03fb8cf1bc71c979",
+    "model_config": {
+      "id": "OPT2_02",
+      "family": "LateConcatBaseline",
+      "learning_rate": 0.0005,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.2,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 13,
+    "best_epoch": 7,
+    "best_val_loss": 0.002531,
+    "history_epochs_count": 13,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_02_fold_2.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_02_fold_2.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_03_fold_0",
+    "candidate_id": "OPT2_03",
+    "model_name": "LateConcatBaseline",
+    "stage": "screening",
+    "fold": 0,
+    "seed": 42,
+    "split_identity": "fold_0",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_03",
+      "family": "LateConcatBaseline",
+      "model_config": {
+        "family": "LateConcatBaseline",
+        "huber_delta": 0.0,
+        "id": "OPT2_03",
+        "learning_rate": 0.001,
+        "loss": "MSELoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.2,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "MSELoss",
+        "parameters": {}
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_0",
+      "fold": 0,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "fe6bd0848640a1cdd75a3d6690f805731a0ea6b84e0cb2dd6bb5aae312968b09",
+    "legacy_candidate_hash": "1b062cce2344b45a",
+    "config_hash": "fe6bd0848640a1cdd75a3d6690f805731a0ea6b84e0cb2dd6bb5aae312968b09",
+    "model_config": {
+      "id": "OPT2_03",
+      "family": "LateConcatBaseline",
+      "learning_rate": 0.001,
+      "loss": "MSELoss",
+      "huber_delta": 0.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.2,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 7,
+    "best_epoch": 1,
+    "best_val_loss": 0.676208,
+    "history_epochs_count": 7,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_03_fold_0.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_03_fold_0.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_03_fold_2",
+    "candidate_id": "OPT2_03",
+    "model_name": "LateConcatBaseline",
+    "stage": "screening",
+    "fold": 2,
+    "seed": 42,
+    "split_identity": "fold_2",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_03",
+      "family": "LateConcatBaseline",
+      "model_config": {
+        "family": "LateConcatBaseline",
+        "huber_delta": 0.0,
+        "id": "OPT2_03",
+        "learning_rate": 0.001,
+        "loss": "MSELoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.2,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "MSELoss",
+        "parameters": {}
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_2",
+      "fold": 2,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "dfabaca8977fd415ea27ac0cfb69353a16edd7c9a5efc9a4e06b5c3d70b87668",
+    "legacy_candidate_hash": "1b062cce2344b45a",
+    "config_hash": "dfabaca8977fd415ea27ac0cfb69353a16edd7c9a5efc9a4e06b5c3d70b87668",
+    "model_config": {
+      "id": "OPT2_03",
+      "family": "LateConcatBaseline",
+      "learning_rate": 0.001,
+      "loss": "MSELoss",
+      "huber_delta": 0.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.2,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 13,
+    "best_epoch": 7,
+    "best_val_loss": 0.004566,
+    "history_epochs_count": 13,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_03_fold_2.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_03_fold_2.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_04_fold_0",
+    "candidate_id": "OPT2_04",
+    "model_name": "LateConcatBaseline",
+    "stage": "screening",
+    "fold": 0,
+    "seed": 42,
+    "split_identity": "fold_0",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_04",
+      "family": "LateConcatBaseline",
+      "model_config": {
+        "family": "LateConcatBaseline",
+        "huber_delta": 0.5,
+        "id": "OPT2_04",
+        "learning_rate": 0.001,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.2,
+        "patience": 6,
+        "temporal_hidden_dim": 32
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 0.5
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_0",
+      "fold": 0,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "7bcfa8b9f6e0b8cc0e85aa332030d9cc61ccd1bc495bc6455dd788fe13ca3668",
+    "legacy_candidate_hash": "82e896cd7c7aa347",
+    "config_hash": "7bcfa8b9f6e0b8cc0e85aa332030d9cc61ccd1bc495bc6455dd788fe13ca3668",
+    "model_config": {
+      "id": "OPT2_04",
+      "family": "LateConcatBaseline",
+      "learning_rate": 0.001,
+      "loss": "HuberLoss",
+      "huber_delta": 0.5,
+      "temporal_hidden_dim": 32,
+      "modality_dropout": 0.2,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 7,
+    "best_epoch": 1,
+    "best_val_loss": 0.232646,
+    "history_epochs_count": 7,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_04_fold_0.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_04_fold_0.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_04_fold_2",
+    "candidate_id": "OPT2_04",
+    "model_name": "LateConcatBaseline",
+    "stage": "screening",
+    "fold": 2,
+    "seed": 42,
+    "split_identity": "fold_2",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_04",
+      "family": "LateConcatBaseline",
+      "model_config": {
+        "family": "LateConcatBaseline",
+        "huber_delta": 0.5,
+        "id": "OPT2_04",
+        "learning_rate": 0.001,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.2,
+        "patience": 6,
+        "temporal_hidden_dim": 32
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 0.5
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_2",
+      "fold": 2,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "cb81c858f36c733699f4279a4025c7c2a635f937e69208ffbccd5263910b9a9e",
+    "legacy_candidate_hash": "82e896cd7c7aa347",
+    "config_hash": "cb81c858f36c733699f4279a4025c7c2a635f937e69208ffbccd5263910b9a9e",
+    "model_config": {
+      "id": "OPT2_04",
+      "family": "LateConcatBaseline",
+      "learning_rate": 0.001,
+      "loss": "HuberLoss",
+      "huber_delta": 0.5,
+      "temporal_hidden_dim": 32,
+      "modality_dropout": 0.2,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 9,
+    "best_epoch": 3,
+    "best_val_loss": 0.003311,
+    "history_epochs_count": 9,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_04_fold_2.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_04_fold_2.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_05_fold_0",
+    "candidate_id": "OPT2_05",
+    "model_name": "VibrationOnlyBaseline",
+    "stage": "screening",
+    "fold": 0,
+    "seed": 42,
+    "split_identity": "fold_0",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_05",
+      "family": "VibrationOnlyBaseline",
+      "model_config": {
+        "family": "VibrationOnlyBaseline",
+        "huber_delta": 1.0,
+        "id": "OPT2_05",
+        "learning_rate": 0.001,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.0,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_0",
+      "fold": 0,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "835a73f97eda837a0f1c235025c0ba3eecefcd85d57d3000c28e44c8cdd07555",
+    "legacy_candidate_hash": "1fece554a08321f3",
+    "config_hash": "835a73f97eda837a0f1c235025c0ba3eecefcd85d57d3000c28e44c8cdd07555",
+    "model_config": {
+      "id": "OPT2_05",
+      "family": "VibrationOnlyBaseline",
+      "learning_rate": 0.001,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.0,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 9,
+    "best_epoch": 3,
+    "best_val_loss": 0.2107,
+    "history_epochs_count": 9,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_05_fold_0.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_05_fold_0.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_05_fold_2",
+    "candidate_id": "OPT2_05",
+    "model_name": "VibrationOnlyBaseline",
+    "stage": "screening",
+    "fold": 2,
+    "seed": 42,
+    "split_identity": "fold_2",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_05",
+      "family": "VibrationOnlyBaseline",
+      "model_config": {
+        "family": "VibrationOnlyBaseline",
+        "huber_delta": 1.0,
+        "id": "OPT2_05",
+        "learning_rate": 0.001,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.0,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_2",
+      "fold": 2,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "1605a33cfff707297ab941df07d98a4b9b3c684d4ee9bc55ed9ad52491d8c80c",
+    "legacy_candidate_hash": "1fece554a08321f3",
+    "config_hash": "1605a33cfff707297ab941df07d98a4b9b3c684d4ee9bc55ed9ad52491d8c80c",
+    "model_config": {
+      "id": "OPT2_05",
+      "family": "VibrationOnlyBaseline",
+      "learning_rate": 0.001,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.0,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 9,
+    "best_epoch": 3,
+    "best_val_loss": 0.001969,
+    "history_epochs_count": 9,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_05_fold_2.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_05_fold_2.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_06_fold_0",
+    "candidate_id": "OPT2_06",
+    "model_name": "VibrationOnlyBaseline",
+    "stage": "screening",
+    "fold": 0,
+    "seed": 42,
+    "split_identity": "fold_0",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_06",
+      "family": "VibrationOnlyBaseline",
+      "model_config": {
+        "family": "VibrationOnlyBaseline",
+        "huber_delta": 1.0,
+        "id": "OPT2_06",
+        "learning_rate": 0.0005,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.0,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_0",
+      "fold": 0,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "57dcd9c4d32e6eb979802fc745e296c1477754997000cc8cc66f3aff99a0134a",
+    "legacy_candidate_hash": "5a525c96ad80120a",
+    "config_hash": "57dcd9c4d32e6eb979802fc745e296c1477754997000cc8cc66f3aff99a0134a",
+    "model_config": {
+      "id": "OPT2_06",
+      "family": "VibrationOnlyBaseline",
+      "learning_rate": 0.0005,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.0,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 11,
+    "best_epoch": 5,
+    "best_val_loss": 0.186788,
+    "history_epochs_count": 11,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_06_fold_0.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_06_fold_0.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_06_fold_2",
+    "candidate_id": "OPT2_06",
+    "model_name": "VibrationOnlyBaseline",
+    "stage": "screening",
+    "fold": 2,
+    "seed": 42,
+    "split_identity": "fold_2",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_06",
+      "family": "VibrationOnlyBaseline",
+      "model_config": {
+        "family": "VibrationOnlyBaseline",
+        "huber_delta": 1.0,
+        "id": "OPT2_06",
+        "learning_rate": 0.0005,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.0,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_2",
+      "fold": 2,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "f87ab1e17003ca0d3b6dd33c18248074476060d118c781d8f49502008b379fcb",
+    "legacy_candidate_hash": "5a525c96ad80120a",
+    "config_hash": "f87ab1e17003ca0d3b6dd33c18248074476060d118c781d8f49502008b379fcb",
+    "model_config": {
+      "id": "OPT2_06",
+      "family": "VibrationOnlyBaseline",
+      "learning_rate": 0.0005,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.0,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 20,
+    "best_epoch": 14,
+    "best_val_loss": 0.001744,
+    "history_epochs_count": 20,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_06_fold_2.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_06_fold_2.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_07_fold_0",
+    "candidate_id": "OPT2_07",
+    "model_name": "VibrationOnlyBaseline",
+    "stage": "screening",
+    "fold": 0,
+    "seed": 42,
+    "split_identity": "fold_0",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_07",
+      "family": "VibrationOnlyBaseline",
+      "model_config": {
+        "family": "VibrationOnlyBaseline",
+        "huber_delta": 1.0,
+        "id": "OPT2_07",
+        "learning_rate": 0.001,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.0,
+        "patience": 6,
+        "temporal_hidden_dim": 32
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_0",
+      "fold": 0,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "c117d940f27a5b04806dbad633656cc3139e5977c7515d002adca7ffd2174259",
+    "legacy_candidate_hash": "c308f25809264063",
+    "config_hash": "c117d940f27a5b04806dbad633656cc3139e5977c7515d002adca7ffd2174259",
+    "model_config": {
+      "id": "OPT2_07",
+      "family": "VibrationOnlyBaseline",
+      "learning_rate": 0.001,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 32,
+      "modality_dropout": 0.0,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 9,
+    "best_epoch": 3,
+    "best_val_loss": 0.202785,
+    "history_epochs_count": 9,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_07_fold_0.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_07_fold_0.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_07_fold_2",
+    "candidate_id": "OPT2_07",
+    "model_name": "VibrationOnlyBaseline",
+    "stage": "screening",
+    "fold": 2,
+    "seed": 42,
+    "split_identity": "fold_2",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_07",
+      "family": "VibrationOnlyBaseline",
+      "model_config": {
+        "family": "VibrationOnlyBaseline",
+        "huber_delta": 1.0,
+        "id": "OPT2_07",
+        "learning_rate": 0.001,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.0,
+        "patience": 6,
+        "temporal_hidden_dim": 32
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_2",
+      "fold": 2,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "1f63f0f30a94271c526909855cb0fc74dacbaf80858d706a5f8e48eb44d561ed",
+    "legacy_candidate_hash": "c308f25809264063",
+    "config_hash": "1f63f0f30a94271c526909855cb0fc74dacbaf80858d706a5f8e48eb44d561ed",
+    "model_config": {
+      "id": "OPT2_07",
+      "family": "VibrationOnlyBaseline",
+      "learning_rate": 0.001,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 32,
+      "modality_dropout": 0.0,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 7,
+    "best_epoch": 1,
+    "best_val_loss": 0.00633,
+    "history_epochs_count": 7,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_07_fold_2.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_07_fold_2.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_08_fold_0",
+    "candidate_id": "OPT2_08",
+    "model_name": "CNNBiLSTMAttentionRUL",
+    "stage": "screening",
+    "fold": 0,
+    "seed": 42,
+    "split_identity": "fold_0",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_08",
+      "family": "CNNBiLSTMAttentionRUL",
+      "model_config": {
+        "family": "CNNBiLSTMAttentionRUL",
+        "huber_delta": 1.0,
+        "id": "OPT2_08",
+        "learning_rate": 0.001,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.2,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_0",
+      "fold": 0,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "3219201bf2292258bb063d397a85b16024d714639c41c927e4cf0f435bdbbe08",
+    "legacy_candidate_hash": "d905086f7104624e",
+    "config_hash": "3219201bf2292258bb063d397a85b16024d714639c41c927e4cf0f435bdbbe08",
+    "model_config": {
+      "id": "OPT2_08",
+      "family": "CNNBiLSTMAttentionRUL",
+      "learning_rate": 0.001,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.2,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 8,
+    "best_epoch": 2,
+    "best_val_loss": 0.225059,
+    "history_epochs_count": 8,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_08_fold_0.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_08_fold_0.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_08_fold_2",
+    "candidate_id": "OPT2_08",
+    "model_name": "CNNBiLSTMAttentionRUL",
+    "stage": "screening",
+    "fold": 2,
+    "seed": 42,
+    "split_identity": "fold_2",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_08",
+      "family": "CNNBiLSTMAttentionRUL",
+      "model_config": {
+        "family": "CNNBiLSTMAttentionRUL",
+        "huber_delta": 1.0,
+        "id": "OPT2_08",
+        "learning_rate": 0.001,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.2,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_2",
+      "fold": 2,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "4daf04514e781f3a2d00f02f4fe797575a46a27e17713591b6d0c2dddeb926c5",
+    "legacy_candidate_hash": "d905086f7104624e",
+    "config_hash": "4daf04514e781f3a2d00f02f4fe797575a46a27e17713591b6d0c2dddeb926c5",
+    "model_config": {
+      "id": "OPT2_08",
+      "family": "CNNBiLSTMAttentionRUL",
+      "learning_rate": 0.001,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.2,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 10,
+    "best_epoch": 4,
+    "best_val_loss": 0.003389,
+    "history_epochs_count": 10,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_08_fold_2.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_08_fold_2.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_09_fold_0",
+    "candidate_id": "OPT2_09",
+    "model_name": "CNNBiLSTMAttentionRUL",
+    "stage": "screening",
+    "fold": 0,
+    "seed": 42,
+    "split_identity": "fold_0",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_09",
+      "family": "CNNBiLSTMAttentionRUL",
+      "model_config": {
+        "family": "CNNBiLSTMAttentionRUL",
+        "huber_delta": 1.0,
+        "id": "OPT2_09",
+        "learning_rate": 0.0005,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.1,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_0",
+      "fold": 0,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "0fe56bbadb88ebab7bef4f89d4fb7807489320063a42903934254b7b7ae968a1",
+    "legacy_candidate_hash": "d7a233f1f77cb428",
+    "config_hash": "0fe56bbadb88ebab7bef4f89d4fb7807489320063a42903934254b7b7ae968a1",
+    "model_config": {
+      "id": "OPT2_09",
+      "family": "CNNBiLSTMAttentionRUL",
+      "learning_rate": 0.0005,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.1,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 9,
+    "best_epoch": 3,
+    "best_val_loss": 0.190182,
+    "history_epochs_count": 9,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_09_fold_0.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_09_fold_0.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_09_fold_2",
+    "candidate_id": "OPT2_09",
+    "model_name": "CNNBiLSTMAttentionRUL",
+    "stage": "screening",
+    "fold": 2,
+    "seed": 42,
+    "split_identity": "fold_2",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_09",
+      "family": "CNNBiLSTMAttentionRUL",
+      "model_config": {
+        "family": "CNNBiLSTMAttentionRUL",
+        "huber_delta": 1.0,
+        "id": "OPT2_09",
+        "learning_rate": 0.0005,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.1,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_2",
+      "fold": 2,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "33a91f0fec827c2192ccdf785b4be9de118101715b4fe46edc096ed42832f93e",
+    "legacy_candidate_hash": "d7a233f1f77cb428",
+    "config_hash": "33a91f0fec827c2192ccdf785b4be9de118101715b4fe46edc096ed42832f93e",
+    "model_config": {
+      "id": "OPT2_09",
+      "family": "CNNBiLSTMAttentionRUL",
+      "learning_rate": 0.0005,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.1,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 20,
+    "best_epoch": 14,
+    "best_val_loss": 0.002442,
+    "history_epochs_count": 20,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_09_fold_2.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_09_fold_2.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_10_fold_0",
+    "candidate_id": "OPT2_10",
+    "model_name": "CNNBiLSTMAttentionRUL",
+    "stage": "screening",
+    "fold": 0,
+    "seed": 42,
+    "split_identity": "fold_0",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_10",
+      "family": "CNNBiLSTMAttentionRUL",
+      "model_config": {
+        "family": "CNNBiLSTMAttentionRUL",
+        "huber_delta": 0.5,
+        "id": "OPT2_10",
+        "learning_rate": 0.001,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.3,
+        "patience": 8,
+        "temporal_hidden_dim": 32
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 0.5
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 8,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_0",
+      "fold": 0,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "b2dcd61e0d481c7c9824ea0780d2ced7b3975113ca3bec0085b9209f30766660",
+    "legacy_candidate_hash": "82b54b6ff886b231",
+    "config_hash": "b2dcd61e0d481c7c9824ea0780d2ced7b3975113ca3bec0085b9209f30766660",
+    "model_config": {
+      "id": "OPT2_10",
+      "family": "CNNBiLSTMAttentionRUL",
+      "learning_rate": 0.001,
+      "loss": "HuberLoss",
+      "huber_delta": 0.5,
+      "temporal_hidden_dim": 32,
+      "modality_dropout": 0.3,
+      "max_epochs": 25,
+      "patience": 8
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 11,
+    "best_epoch": 3,
+    "best_val_loss": 0.152555,
+    "history_epochs_count": 11,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_10_fold_0.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_10_fold_0.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_10_fold_2",
+    "candidate_id": "OPT2_10",
+    "model_name": "CNNBiLSTMAttentionRUL",
+    "stage": "screening",
+    "fold": 2,
+    "seed": 42,
+    "split_identity": "fold_2",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_10",
+      "family": "CNNBiLSTMAttentionRUL",
+      "model_config": {
+        "family": "CNNBiLSTMAttentionRUL",
+        "huber_delta": 0.5,
+        "id": "OPT2_10",
+        "learning_rate": 0.001,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.3,
+        "patience": 8,
+        "temporal_hidden_dim": 32
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 0.5
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 8,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_2",
+      "fold": 2,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "eee2097923ec2b11c075d90136e2670318827abf6702ded4c9fd9bf492c469f7",
+    "legacy_candidate_hash": "82b54b6ff886b231",
+    "config_hash": "eee2097923ec2b11c075d90136e2670318827abf6702ded4c9fd9bf492c469f7",
+    "model_config": {
+      "id": "OPT2_10",
+      "family": "CNNBiLSTMAttentionRUL",
+      "learning_rate": 0.001,
+      "loss": "HuberLoss",
+      "huber_delta": 0.5,
+      "temporal_hidden_dim": 32,
+      "modality_dropout": 0.3,
+      "max_epochs": 25,
+      "patience": 8
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 11,
+    "best_epoch": 3,
+    "best_val_loss": 0.003524,
+    "history_epochs_count": 11,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_10_fold_2.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_10_fold_2.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_11_fold_0",
+    "candidate_id": "OPT2_11",
+    "model_name": "MainModel_NoAttention",
+    "stage": "screening",
+    "fold": 0,
+    "seed": 42,
+    "split_identity": "fold_0",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_11",
+      "family": "MainModel_NoAttention",
+      "model_config": {
+        "family": "MainModel_NoAttention",
+        "huber_delta": 1.0,
+        "id": "OPT2_11",
+        "learning_rate": 0.001,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.2,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_0",
+      "fold": 0,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "196635d28247190b0962bb293452f2cb1a1d4704141fa10ac3389fe762ae6ec6",
+    "legacy_candidate_hash": "054f71971bb86e71",
+    "config_hash": "196635d28247190b0962bb293452f2cb1a1d4704141fa10ac3389fe762ae6ec6",
+    "model_config": {
+      "id": "OPT2_11",
+      "family": "MainModel_NoAttention",
+      "learning_rate": 0.001,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.2,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 8,
+    "best_epoch": 2,
+    "best_val_loss": 0.29379,
+    "history_epochs_count": 8,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_11_fold_0.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_11_fold_0.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_11_fold_2",
+    "candidate_id": "OPT2_11",
+    "model_name": "MainModel_NoAttention",
+    "stage": "screening",
+    "fold": 2,
+    "seed": 42,
+    "split_identity": "fold_2",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_11",
+      "family": "MainModel_NoAttention",
+      "model_config": {
+        "family": "MainModel_NoAttention",
+        "huber_delta": 1.0,
+        "id": "OPT2_11",
+        "learning_rate": 0.001,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.2,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_2",
+      "fold": 2,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "57a06cc9049eb3b4de13c7442b5294dfea0e87a02cc9389b29ecaa701c0fa043",
+    "legacy_candidate_hash": "054f71971bb86e71",
+    "config_hash": "57a06cc9049eb3b4de13c7442b5294dfea0e87a02cc9389b29ecaa701c0fa043",
+    "model_config": {
+      "id": "OPT2_11",
+      "family": "MainModel_NoAttention",
+      "learning_rate": 0.001,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.2,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 10,
+    "best_epoch": 4,
+    "best_val_loss": 0.002759,
+    "history_epochs_count": 10,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_11_fold_2.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_11_fold_2.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_12_fold_0",
+    "candidate_id": "OPT2_12",
+    "model_name": "MainModel_NoAttention",
+    "stage": "screening",
+    "fold": 0,
+    "seed": 42,
+    "split_identity": "fold_0",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_12",
+      "family": "MainModel_NoAttention",
+      "model_config": {
+        "family": "MainModel_NoAttention",
+        "huber_delta": 1.0,
+        "id": "OPT2_12",
+        "learning_rate": 0.0005,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.2,
+        "patience": 6,
+        "temporal_hidden_dim": 32
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_0",
+      "fold": 0,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "fa209119efa5540f02ed4e2ae9bc78c1383483f7c1b245a6872b09ef9fa06942",
+    "legacy_candidate_hash": "db2cfb083fcf783a",
+    "config_hash": "fa209119efa5540f02ed4e2ae9bc78c1383483f7c1b245a6872b09ef9fa06942",
+    "model_config": {
+      "id": "OPT2_12",
+      "family": "MainModel_NoAttention",
+      "learning_rate": 0.0005,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 32,
+      "modality_dropout": 0.2,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 10,
+    "best_epoch": 4,
+    "best_val_loss": 0.261361,
+    "history_epochs_count": 10,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_12_fold_0.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_12_fold_0.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_12_fold_2",
+    "candidate_id": "OPT2_12",
+    "model_name": "MainModel_NoAttention",
+    "stage": "screening",
+    "fold": 2,
+    "seed": 42,
+    "split_identity": "fold_2",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_12",
+      "family": "MainModel_NoAttention",
+      "model_config": {
+        "family": "MainModel_NoAttention",
+        "huber_delta": 1.0,
+        "id": "OPT2_12",
+        "learning_rate": 0.0005,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.2,
+        "patience": 6,
+        "temporal_hidden_dim": 32
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_2",
+      "fold": 2,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "eb77abf451cc07d5a9f0f09dfae7d3730e0381e603a7a86fbdb6ec4145f90993",
+    "legacy_candidate_hash": "db2cfb083fcf783a",
+    "config_hash": "eb77abf451cc07d5a9f0f09dfae7d3730e0381e603a7a86fbdb6ec4145f90993",
+    "model_config": {
+      "id": "OPT2_12",
+      "family": "MainModel_NoAttention",
+      "learning_rate": 0.0005,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 32,
+      "modality_dropout": 0.2,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 14,
+    "best_epoch": 8,
+    "best_val_loss": 0.002676,
+    "history_epochs_count": 14,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_12_fold_2.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_12_fold_2.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_05_fold_1",
+    "candidate_id": "OPT2_05",
+    "model_name": "VibrationOnlyBaseline",
+    "stage": "confirmation",
+    "fold": 1,
+    "seed": 42,
+    "split_identity": "fold_1",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_05",
+      "family": "VibrationOnlyBaseline",
+      "model_config": {
+        "family": "VibrationOnlyBaseline",
+        "huber_delta": 1.0,
+        "id": "OPT2_05",
+        "learning_rate": 0.001,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.0,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_1",
+      "fold": 1,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "010b9235a76e9745b6d116e99751a4148a2bf05b6fb9dbe9b52ba6ad5a749261",
+    "legacy_candidate_hash": "1fece554a08321f3",
+    "config_hash": "010b9235a76e9745b6d116e99751a4148a2bf05b6fb9dbe9b52ba6ad5a749261",
+    "model_config": {
+      "id": "OPT2_05",
+      "family": "VibrationOnlyBaseline",
+      "learning_rate": 0.001,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.0,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 12,
+    "best_epoch": 6,
+    "best_val_loss": 0.002897,
+    "history_epochs_count": 12,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_05_fold_1.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_05_fold_1.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_05_fold_3",
+    "candidate_id": "OPT2_05",
+    "model_name": "VibrationOnlyBaseline",
+    "stage": "confirmation",
+    "fold": 3,
+    "seed": 42,
+    "split_identity": "fold_3",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_05",
+      "family": "VibrationOnlyBaseline",
+      "model_config": {
+        "family": "VibrationOnlyBaseline",
+        "huber_delta": 1.0,
+        "id": "OPT2_05",
+        "learning_rate": 0.001,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.0,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_3",
+      "fold": 3,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "f54f7086e87bb431788ea2f22ab83177b1ce29057b8d2cc1082d51938daa8485",
+    "legacy_candidate_hash": "1fece554a08321f3",
+    "config_hash": "f54f7086e87bb431788ea2f22ab83177b1ce29057b8d2cc1082d51938daa8485",
+    "model_config": {
+      "id": "OPT2_05",
+      "family": "VibrationOnlyBaseline",
+      "learning_rate": 0.001,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.0,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 14,
+    "best_epoch": 8,
+    "best_val_loss": 0.001984,
+    "history_epochs_count": 14,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_05_fold_3.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_05_fold_3.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_05_fold_4",
+    "candidate_id": "OPT2_05",
+    "model_name": "VibrationOnlyBaseline",
+    "stage": "confirmation",
+    "fold": 4,
+    "seed": 42,
+    "split_identity": "fold_4",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_05",
+      "family": "VibrationOnlyBaseline",
+      "model_config": {
+        "family": "VibrationOnlyBaseline",
+        "huber_delta": 1.0,
+        "id": "OPT2_05",
+        "learning_rate": 0.001,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.0,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_4",
+      "fold": 4,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "758c461d4710cc2f8717df22a93a7d372aa32d434c5f7a21a56cbc23465fef4c",
+    "legacy_candidate_hash": "1fece554a08321f3",
+    "config_hash": "758c461d4710cc2f8717df22a93a7d372aa32d434c5f7a21a56cbc23465fef4c",
+    "model_config": {
+      "id": "OPT2_05",
+      "family": "VibrationOnlyBaseline",
+      "learning_rate": 0.001,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.0,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 15,
+    "best_epoch": 9,
+    "best_val_loss": 0.005027,
+    "history_epochs_count": 15,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_05_fold_4.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_05_fold_4.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_05_fold_5",
+    "candidate_id": "OPT2_05",
+    "model_name": "VibrationOnlyBaseline",
+    "stage": "confirmation",
+    "fold": 5,
+    "seed": 42,
+    "split_identity": "fold_5",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_05",
+      "family": "VibrationOnlyBaseline",
+      "model_config": {
+        "family": "VibrationOnlyBaseline",
+        "huber_delta": 1.0,
+        "id": "OPT2_05",
+        "learning_rate": 0.001,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.0,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_5",
+      "fold": 5,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "6b205fb3fc6d2dec4b3f648e334d401505a85a362085b693e4e31e84592173fd",
+    "legacy_candidate_hash": "1fece554a08321f3",
+    "config_hash": "6b205fb3fc6d2dec4b3f648e334d401505a85a362085b693e4e31e84592173fd",
+    "model_config": {
+      "id": "OPT2_05",
+      "family": "VibrationOnlyBaseline",
+      "learning_rate": 0.001,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.0,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 8,
+    "best_epoch": 2,
+    "best_val_loss": 0.013164,
+    "history_epochs_count": 8,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_05_fold_5.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_05_fold_5.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_06_fold_1",
+    "candidate_id": "OPT2_06",
+    "model_name": "VibrationOnlyBaseline",
+    "stage": "confirmation",
+    "fold": 1,
+    "seed": 42,
+    "split_identity": "fold_1",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_06",
+      "family": "VibrationOnlyBaseline",
+      "model_config": {
+        "family": "VibrationOnlyBaseline",
+        "huber_delta": 1.0,
+        "id": "OPT2_06",
+        "learning_rate": 0.0005,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.0,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_1",
+      "fold": 1,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "268daf4680e5626f28c9d10a3adf84af6cbf1312d0aeb3197a91fa49d5b1e994",
+    "legacy_candidate_hash": "5a525c96ad80120a",
+    "config_hash": "268daf4680e5626f28c9d10a3adf84af6cbf1312d0aeb3197a91fa49d5b1e994",
+    "model_config": {
+      "id": "OPT2_06",
+      "family": "VibrationOnlyBaseline",
+      "learning_rate": 0.0005,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.0,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 13,
+    "best_epoch": 7,
+    "best_val_loss": 0.005349,
+    "history_epochs_count": 13,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_06_fold_1.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_06_fold_1.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_06_fold_3",
+    "candidate_id": "OPT2_06",
+    "model_name": "VibrationOnlyBaseline",
+    "stage": "confirmation",
+    "fold": 3,
+    "seed": 42,
+    "split_identity": "fold_3",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_06",
+      "family": "VibrationOnlyBaseline",
+      "model_config": {
+        "family": "VibrationOnlyBaseline",
+        "huber_delta": 1.0,
+        "id": "OPT2_06",
+        "learning_rate": 0.0005,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.0,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_3",
+      "fold": 3,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "2d7d2a88b2f2865959e31d3b04fc16dbab85f8865e5d8e9aa719496a0f3ce836",
+    "legacy_candidate_hash": "5a525c96ad80120a",
+    "config_hash": "2d7d2a88b2f2865959e31d3b04fc16dbab85f8865e5d8e9aa719496a0f3ce836",
+    "model_config": {
+      "id": "OPT2_06",
+      "family": "VibrationOnlyBaseline",
+      "learning_rate": 0.0005,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.0,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 17,
+    "best_epoch": 11,
+    "best_val_loss": 0.000998,
+    "history_epochs_count": 17,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_06_fold_3.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_06_fold_3.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_06_fold_4",
+    "candidate_id": "OPT2_06",
+    "model_name": "VibrationOnlyBaseline",
+    "stage": "confirmation",
+    "fold": 4,
+    "seed": 42,
+    "split_identity": "fold_4",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_06",
+      "family": "VibrationOnlyBaseline",
+      "model_config": {
+        "family": "VibrationOnlyBaseline",
+        "huber_delta": 1.0,
+        "id": "OPT2_06",
+        "learning_rate": 0.0005,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.0,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_4",
+      "fold": 4,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "a9e040f9223628994196d11cbc5ddb0abae7356dba35d9994501de3afb32725a",
+    "legacy_candidate_hash": "5a525c96ad80120a",
+    "config_hash": "a9e040f9223628994196d11cbc5ddb0abae7356dba35d9994501de3afb32725a",
+    "model_config": {
+      "id": "OPT2_06",
+      "family": "VibrationOnlyBaseline",
+      "learning_rate": 0.0005,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.0,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 7,
+    "best_epoch": 1,
+    "best_val_loss": 0.002507,
+    "history_epochs_count": 7,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_06_fold_4.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_06_fold_4.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_06_fold_5",
+    "candidate_id": "OPT2_06",
+    "model_name": "VibrationOnlyBaseline",
+    "stage": "confirmation",
+    "fold": 5,
+    "seed": 42,
+    "split_identity": "fold_5",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_06",
+      "family": "VibrationOnlyBaseline",
+      "model_config": {
+        "family": "VibrationOnlyBaseline",
+        "huber_delta": 1.0,
+        "id": "OPT2_06",
+        "learning_rate": 0.0005,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.0,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_5",
+      "fold": 5,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "639ebbcc805b211318411688897e22953e7682822d7a215a57e2adf980469ffe",
+    "legacy_candidate_hash": "5a525c96ad80120a",
+    "config_hash": "639ebbcc805b211318411688897e22953e7682822d7a215a57e2adf980469ffe",
+    "model_config": {
+      "id": "OPT2_06",
+      "family": "VibrationOnlyBaseline",
+      "learning_rate": 0.0005,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.0,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 9,
+    "best_epoch": 3,
+    "best_val_loss": 0.012871,
+    "history_epochs_count": 9,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_06_fold_5.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_06_fold_5.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_09_fold_1",
+    "candidate_id": "OPT2_09",
+    "model_name": "CNNBiLSTMAttentionRUL",
+    "stage": "confirmation",
+    "fold": 1,
+    "seed": 42,
+    "split_identity": "fold_1",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_09",
+      "family": "CNNBiLSTMAttentionRUL",
+      "model_config": {
+        "family": "CNNBiLSTMAttentionRUL",
+        "huber_delta": 1.0,
+        "id": "OPT2_09",
+        "learning_rate": 0.0005,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.1,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_1",
+      "fold": 1,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "63777a1a6cb7091516430910a0e6fb21d7252272380573bf769953b9d5ea2bdc",
+    "legacy_candidate_hash": "d7a233f1f77cb428",
+    "config_hash": "63777a1a6cb7091516430910a0e6fb21d7252272380573bf769953b9d5ea2bdc",
+    "model_config": {
+      "id": "OPT2_09",
+      "family": "CNNBiLSTMAttentionRUL",
+      "learning_rate": 0.0005,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.1,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 10,
+    "best_epoch": 4,
+    "best_val_loss": 0.012842,
+    "history_epochs_count": 10,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_09_fold_1.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_09_fold_1.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_09_fold_3",
+    "candidate_id": "OPT2_09",
+    "model_name": "CNNBiLSTMAttentionRUL",
+    "stage": "confirmation",
+    "fold": 3,
+    "seed": 42,
+    "split_identity": "fold_3",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_09",
+      "family": "CNNBiLSTMAttentionRUL",
+      "model_config": {
+        "family": "CNNBiLSTMAttentionRUL",
+        "huber_delta": 1.0,
+        "id": "OPT2_09",
+        "learning_rate": 0.0005,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.1,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_3",
+      "fold": 3,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "f2b1cf8e5a642a4e4c0d3d206ed021a60209640ca912d0700e181ddc95f7df15",
+    "legacy_candidate_hash": "d7a233f1f77cb428",
+    "config_hash": "f2b1cf8e5a642a4e4c0d3d206ed021a60209640ca912d0700e181ddc95f7df15",
+    "model_config": {
+      "id": "OPT2_09",
+      "family": "CNNBiLSTMAttentionRUL",
+      "learning_rate": 0.0005,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.1,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 7,
+    "best_epoch": 1,
+    "best_val_loss": 0.003459,
+    "history_epochs_count": 7,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_09_fold_3.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_09_fold_3.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_09_fold_4",
+    "candidate_id": "OPT2_09",
+    "model_name": "CNNBiLSTMAttentionRUL",
+    "stage": "confirmation",
+    "fold": 4,
+    "seed": 42,
+    "split_identity": "fold_4",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_09",
+      "family": "CNNBiLSTMAttentionRUL",
+      "model_config": {
+        "family": "CNNBiLSTMAttentionRUL",
+        "huber_delta": 1.0,
+        "id": "OPT2_09",
+        "learning_rate": 0.0005,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.1,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_4",
+      "fold": 4,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "23dcc62e4900ab7f06114e71c1ebae3830fd2b54c7f81e422b58a1b2f70d1bf2",
+    "legacy_candidate_hash": "d7a233f1f77cb428",
+    "config_hash": "23dcc62e4900ab7f06114e71c1ebae3830fd2b54c7f81e422b58a1b2f70d1bf2",
+    "model_config": {
+      "id": "OPT2_09",
+      "family": "CNNBiLSTMAttentionRUL",
+      "learning_rate": 0.0005,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.1,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 7,
+    "best_epoch": 1,
+    "best_val_loss": 0.002306,
+    "history_epochs_count": 7,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_09_fold_4.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_09_fold_4.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  },
+  {
+    "run_id": "opt2_OPT2_09_fold_5",
+    "candidate_id": "OPT2_09",
+    "model_name": "CNNBiLSTMAttentionRUL",
+    "stage": "confirmation",
+    "fold": 5,
+    "seed": 42,
+    "split_identity": "fold_5",
+    "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+    "canonical_identity": {
+      "candidate_id": "OPT2_09",
+      "family": "CNNBiLSTMAttentionRUL",
+      "model_config": {
+        "family": "CNNBiLSTMAttentionRUL",
+        "huber_delta": 1.0,
+        "id": "OPT2_09",
+        "learning_rate": 0.0005,
+        "loss": "HuberLoss",
+        "max_epochs": 25,
+        "modality_dropout": 0.1,
+        "patience": 6,
+        "temporal_hidden_dim": 64
+      },
+      "batch_size": 32,
+      "optimizer": {
+        "name": "AdamW",
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001
+      },
+      "loss": {
+        "name": "HuberLoss",
+        "parameters": {
+          "huber_delta": 1.0
+        }
+      },
+      "gradient_clipping": {
+        "norm": 1.0
+      },
+      "scheduler": {
+        "name": "ReduceLROnPlateau",
+        "mode": "min",
+        "factor": 0.5,
+        "patience": 5
+      },
+      "max_epochs": 25,
+      "early_stopping_patience": 6,
+      "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+      "split_identity": "fold_5",
+      "fold": 5,
+      "seed": 42,
+      "pipeline_version": "2.1.0-step21d",
+      "code_version": "step21d"
+    },
+    "optimization_identity_hash": "14b856f9582035a15549bad2b975e78adb99148b7bdcaa0a2eb4c4647e78cfe6",
+    "legacy_candidate_hash": "d7a233f1f77cb428",
+    "config_hash": "14b856f9582035a15549bad2b975e78adb99148b7bdcaa0a2eb4c4647e78cfe6",
+    "model_config": {
+      "id": "OPT2_09",
+      "family": "CNNBiLSTMAttentionRUL",
+      "learning_rate": 0.0005,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.1,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "pipeline_version": "2.1.0-step21d",
+    "code_version": "step21d",
+    "completion_status": "completed",
+    "total_epochs_trained": 9,
+    "best_epoch": 3,
+    "best_val_loss": 0.014501,
+    "history_epochs_count": 9,
+    "latest_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/latest_opt2_OPT2_09_fold_5.pt",
+    "best_checkpoint_path": "<PROJECT_ROOT>/customer_handover/checkpoints/best_opt2_OPT2_09_fold_5.pt",
+    "prediction_artifact_path": "<PROJECT_ROOT>/customer_handover/predictions/optimization_v2_dev_predictions.csv"
+  }
+]

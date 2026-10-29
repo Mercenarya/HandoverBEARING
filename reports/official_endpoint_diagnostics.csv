@@ -1,0 +1,56 @@
+model_name,bearing_id,condition_id,actual_rul_seconds,predicted_rul_seconds,signed_error_seconds,absolute_error_seconds,absolute_percentage_error,temperature_subgroup,within_10_percent,within_20_percent
+Random Forest (Handcrafted),Bearing1_3,OC1,5730.0,5331.5,-398.5,398.5,6.96,Fully Missing Temperature,True,True
+Random Forest (Handcrafted),Bearing1_4,OC1,339.0,1011.3,672.3,672.3,198.31,Usable Temperature,False,False
+Random Forest (Handcrafted),Bearing1_5,OC1,1610.0,3391.2,1781.2,1781.2,110.63,Usable Temperature,False,False
+Random Forest (Handcrafted),Bearing1_6,OC1,1460.0,6650.9,5190.9,5190.9,355.54,Usable Temperature,False,False
+Random Forest (Handcrafted),Bearing1_7,OC1,7570.0,2967.6,-4602.4,4602.4,60.8,Usable Temperature,False,False
+Random Forest (Handcrafted),Bearing2_3,OC2,7530.0,1768.0,-5762.0,5762.0,76.52,Fully Missing Temperature,False,False
+Random Forest (Handcrafted),Bearing2_4,OC2,1390.0,9605.3,8215.3,8215.3,591.03,Usable Temperature,False,False
+Random Forest (Handcrafted),Bearing2_5,OC2,3090.0,1950.2,-1139.8,1139.8,36.89,Usable Temperature,False,False
+Random Forest (Handcrafted),Bearing2_6,OC2,1290.0,4244.3,2954.3,2954.3,229.02,Fully Missing Temperature,False,False
+Random Forest (Handcrafted),Bearing2_7,OC2,580.0,7459.6,6879.6,6879.6,1186.14,Usable Temperature,False,False
+Random Forest (Handcrafted),Bearing3_3,OC3,820.0,1755.8,935.8,935.8,114.12,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 42),Bearing1_3,OC1,5730.0,2140.1,-3589.9,3589.9,62.65,Fully Missing Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 42),Bearing1_4,OC1,339.0,2348.7,2009.7,2009.7,592.84,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 42),Bearing1_5,OC1,1610.0,1665.6,55.6,55.6,3.45,Usable Temperature,True,True
+CNNBiLSTMAttentionRUL (Seed 42),Bearing1_6,OC1,1460.0,2845.1,1385.1,1385.1,94.87,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 42),Bearing1_7,OC1,7570.0,2061.4,-5508.6,5508.6,72.77,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 42),Bearing2_3,OC2,7530.0,2631.8,-4898.2,4898.2,65.05,Fully Missing Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 42),Bearing2_4,OC2,1390.0,3988.7,2598.7,2598.7,186.96,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 42),Bearing2_5,OC2,3090.0,2546.3,-543.7,543.7,17.6,Usable Temperature,False,True
+CNNBiLSTMAttentionRUL (Seed 42),Bearing2_6,OC2,1290.0,2226.5,936.5,936.5,72.59,Fully Missing Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 42),Bearing2_7,OC2,580.0,8287.5,7707.5,7707.5,1328.88,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 42),Bearing3_3,OC3,820.0,12856.5,12036.5,12036.5,1467.86,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 123),Bearing1_3,OC1,5730.0,2938.9,-2791.1,2791.1,48.71,Fully Missing Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 123),Bearing1_4,OC1,339.0,2963.5,2624.5,2624.5,774.18,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 123),Bearing1_5,OC1,1610.0,2549.1,939.1,939.1,58.33,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 123),Bearing1_6,OC1,1460.0,3118.0,1658.0,1658.0,113.56,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 123),Bearing1_7,OC1,7570.0,2702.7,-4867.3,4867.3,64.3,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 123),Bearing2_3,OC2,7530.0,2982.6,-4547.4,4547.4,60.39,Fully Missing Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 123),Bearing2_4,OC2,1390.0,3385.0,1995.0,1995.0,143.53,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 123),Bearing2_5,OC2,3090.0,2743.7,-346.3,346.3,11.21,Usable Temperature,False,True
+CNNBiLSTMAttentionRUL (Seed 123),Bearing2_6,OC2,1290.0,2798.5,1508.5,1508.5,116.94,Fully Missing Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 123),Bearing2_7,OC2,580.0,5122.6,4542.6,4542.6,783.2,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 123),Bearing3_3,OC3,820.0,7697.5,6877.5,6877.5,838.72,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 999),Bearing1_3,OC1,5730.0,2752.8,-2977.2,2977.2,51.96,Fully Missing Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 999),Bearing1_4,OC1,339.0,3285.8,2946.8,2946.8,869.25,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 999),Bearing1_5,OC1,1610.0,1232.8,-377.2,377.2,23.43,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 999),Bearing1_6,OC1,1460.0,2971.2,1511.2,1511.2,103.51,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 999),Bearing1_7,OC1,7570.0,1853.8,-5716.2,5716.2,75.51,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 999),Bearing2_3,OC2,7530.0,645.0,-6885.0,6885.0,91.43,Fully Missing Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 999),Bearing2_4,OC2,1390.0,3726.9,2336.9,2336.9,168.12,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 999),Bearing2_5,OC2,3090.0,1733.0,-1357.0,1357.0,43.92,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 999),Bearing2_6,OC2,1290.0,115.0,-1175.0,1175.0,91.09,Fully Missing Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 999),Bearing2_7,OC2,580.0,5372.0,4792.0,4792.0,826.21,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Seed 999),Bearing3_3,OC3,820.0,7594.0,6774.0,6774.0,826.1,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Multi-Seed Ensemble),Bearing1_3,OC1,5730.0,2610.6,-3119.4,3119.4,54.44,Fully Missing Temperature,False,False
+CNNBiLSTMAttentionRUL (Multi-Seed Ensemble),Bearing1_4,OC1,339.0,2866.0,2527.0,2527.0,745.43,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Multi-Seed Ensemble),Bearing1_5,OC1,1610.0,1815.8,205.8,205.8,12.79,Usable Temperature,False,True
+CNNBiLSTMAttentionRUL (Multi-Seed Ensemble),Bearing1_6,OC1,1460.0,2978.1,1518.1,1518.1,103.98,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Multi-Seed Ensemble),Bearing1_7,OC1,7570.0,2206.0,-5364.0,5364.0,70.86,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Multi-Seed Ensemble),Bearing2_3,OC2,7530.0,2086.4,-5443.6,5443.6,72.29,Fully Missing Temperature,False,False
+CNNBiLSTMAttentionRUL (Multi-Seed Ensemble),Bearing2_4,OC2,1390.0,3700.2,2310.2,2310.2,166.2,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Multi-Seed Ensemble),Bearing2_5,OC2,3090.0,2341.0,-749.0,749.0,24.24,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Multi-Seed Ensemble),Bearing2_6,OC2,1290.0,1713.3,423.3,423.3,32.81,Fully Missing Temperature,False,False
+CNNBiLSTMAttentionRUL (Multi-Seed Ensemble),Bearing2_7,OC2,580.0,6260.7,5680.7,5680.7,979.43,Usable Temperature,False,False
+CNNBiLSTMAttentionRUL (Multi-Seed Ensemble),Bearing3_3,OC3,820.0,9382.7,8562.7,8562.7,1044.23,Usable Temperature,False,False

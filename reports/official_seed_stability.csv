@@ -1,0 +1,6 @@
+metric,display_name,mean,sample_std,min,max,seed_42_val,seed_123_val,seed_999_val,std_convention
+window_mae_s,Window MAE (s),8329.5,206.9,8090.6,8450.9,8450.9,8090.6,8447.1,sample_standard_deviation_ddof_1
+window_rmse_s,Window RMSE (s),10083.9,269.9,9772.5,10251.3,10251.3,9772.5,10227.8,sample_standard_deviation_ddof_1
+endpoint_mae_s,Endpoint MAE (s),3358.1,389.7,2972.5,3751.8,3751.8,2972.5,3349.9,sample_standard_deviation_ddof_1
+endpoint_rmse_s,Endpoint RMSE (s),4213.5,800.4,3529.0,5093.6,5093.6,3529.0,4018.0,sample_standard_deviation_ddof_1
+ieee_phm_score,IEEE PHM Score,0.10732,0.02272,0.08955,0.13292,0.13292,0.09949,0.08955,sample_standard_deviation_ddof_1

@@ -1,0 +1,150 @@
+{
+  "timestamp": "2026-10-29T08:28:38.285643+00:00",
+  "selection_protocol": "SPEC_Section_20_normalized_trajectory_optimization",
+  "candidate_namespace": "OPT2",
+  "screening_folds": [
+    0,
+    2
+  ],
+  "screening_bearings": [
+    "Bearing1_1",
+    "Bearing2_1"
+  ],
+  "confirmation_folds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "confirmation_bearings": [
+    "Bearing1_1",
+    "Bearing1_2",
+    "Bearing2_1",
+    "Bearing2_2",
+    "Bearing3_1",
+    "Bearing3_2"
+  ],
+  "selection_rule": {
+    "primary_metric": "mean_trajectory_nrmse",
+    "tie_breaker_1": "mean_trajectory_nmae",
+    "tie_tolerance_nrmse": 0.005,
+    "tie_breaker_2": "global_window_rmse_s",
+    "tie_breaker_3": "std_trajectory_nrmse",
+    "tie_breaker_4": "parameter_count",
+    "endpoint_zero_objective_status": "diagnostic_only_non_selection"
+  },
+  "screened_candidates_count": 12,
+  "top_3_finalists": [
+    "OPT2_06",
+    "OPT2_05",
+    "OPT2_09"
+  ],
+  "finalist_confirmations": [
+    {
+      "candidate_id": "OPT2_06",
+      "family": "VibrationOnlyBaseline",
+      "hyperparameters": {
+        "id": "OPT2_06",
+        "family": "VibrationOnlyBaseline",
+        "learning_rate": 0.0005,
+        "loss": "HuberLoss",
+        "huber_delta": 1.0,
+        "temporal_hidden_dim": 64,
+        "modality_dropout": 0.0,
+        "max_epochs": 25,
+        "patience": 6
+      },
+      "mean_trajectory_nrmse": 0.28789,
+      "mean_trajectory_nmae": 0.22602,
+      "std_trajectory_nrmse": 0.09767,
+      "global_window_mae_s": 4279.7,
+      "global_window_rmse_s": 6486.8,
+      "global_endpoint_mae_s": 359.9,
+      "global_endpoint_rmse_s": 476.8,
+      "trainable_parameters": 101089
+    },
+    {
+      "candidate_id": "OPT2_05",
+      "family": "VibrationOnlyBaseline",
+      "hyperparameters": {
+        "id": "OPT2_05",
+        "family": "VibrationOnlyBaseline",
+        "learning_rate": 0.001,
+        "loss": "HuberLoss",
+        "huber_delta": 1.0,
+        "temporal_hidden_dim": 64,
+        "modality_dropout": 0.0,
+        "max_epochs": 25,
+        "patience": 6
+      },
+      "mean_trajectory_nrmse": 0.31834,
+      "mean_trajectory_nmae": 0.27172,
+      "std_trajectory_nrmse": 0.14005,
+      "global_window_mae_s": 4740.2,
+      "global_window_rmse_s": 6855.1,
+      "global_endpoint_mae_s": 1459.2,
+      "global_endpoint_rmse_s": 1600.3,
+      "trainable_parameters": 101089
+    },
+    {
+      "candidate_id": "OPT2_09",
+      "family": "CNNBiLSTMAttentionRUL",
+      "hyperparameters": {
+        "id": "OPT2_09",
+        "family": "CNNBiLSTMAttentionRUL",
+        "learning_rate": 0.0005,
+        "loss": "HuberLoss",
+        "huber_delta": 1.0,
+        "temporal_hidden_dim": 64,
+        "modality_dropout": 0.1,
+        "max_epochs": 25,
+        "patience": 6
+      },
+      "mean_trajectory_nrmse": 0.34792,
+      "mean_trajectory_nmae": 0.29597,
+      "std_trajectory_nrmse": 0.10429,
+      "global_window_mae_s": 4936.6,
+      "global_window_rmse_s": 6714.7,
+      "global_endpoint_mae_s": 3159.3,
+      "global_endpoint_rmse_s": 3703.6,
+      "trainable_parameters": 121954
+    }
+  ],
+  "winning_configuration": {
+    "candidate_id": "OPT2_06",
+    "family": "VibrationOnlyBaseline",
+    "hyperparameters": {
+      "id": "OPT2_06",
+      "family": "VibrationOnlyBaseline",
+      "learning_rate": 0.0005,
+      "loss": "HuberLoss",
+      "huber_delta": 1.0,
+      "temporal_hidden_dim": 64,
+      "modality_dropout": 0.0,
+      "max_epochs": 25,
+      "patience": 6
+    },
+    "mean_trajectory_nrmse": 0.28789,
+    "mean_trajectory_nmae": 0.22602,
+    "std_trajectory_nrmse": 0.09767,
+    "global_window_mae_s": 4279.7,
+    "global_window_rmse_s": 6486.8,
+    "global_endpoint_mae_s": 359.9,
+    "global_endpoint_rmse_s": 476.8,
+    "trainable_parameters": 101089,
+    "selection_rationale": "Candidate OPT2_06 achieved the lowest 6-fold mean trajectory NRMSE (0.28789) across all development bearings under SPEC Section 20 equal-bearing evaluation."
+  },
+  "comparison_to_baseline_references": {
+    "baseline_lateconcat_global_window_rmse_s": 7420.4,
+    "baseline_lateconcat_global_endpoint_mae_s": 1326.4,
+    "baseline_vibration_global_window_rmse_s": 6987.3,
+    "baseline_vibration_global_endpoint_mae_s": 1738.0,
+    "baseline_target_attention_global_window_rmse_s": 7929.6,
+    "baseline_target_attention_global_endpoint_mae_s": 2979.8
+  },
+  "cache_identity": "pronostia_v4_cf6053f032a89fa2",
+  "code_version": "step21d",
+  "pipeline_version": "2.1.0-step21d"
+}

@@ -1,0 +1,13 @@
+candidate_id,family,learning_rate,loss,temporal_hidden_dim,modality_dropout,trainable_parameters,mean_trajectory_nrmse,mean_trajectory_nmae,global_window_rmse_s,mean_endpoint_mae_s,mean_endpoint_rmse_s,rank,selection_verdict
+OPT2_06,VibrationOnlyBaseline,0.0005,HuberLoss,64,0.0,101089,0.27033,0.19556,8587.4,515.9,515.9,1,Confirmed Finalist
+OPT2_05,VibrationOnlyBaseline,0.001,HuberLoss,64,0.0,101089,0.28753,0.23653,9139.0,1548.7,1548.7,2,Confirmed Finalist
+OPT2_09,CNNBiLSTMAttentionRUL,0.0005,HuberLoss,64,0.1,121954,0.28904,0.23861,8681.5,5493.4,5493.4,3,Confirmed Finalist
+OPT2_10,CNNBiLSTMAttentionRUL,0.001,HuberLoss,32,0.3,65986,0.31188,0.25655,8736.0,4458.1,4458.1,4,Eliminated in Screening
+OPT2_08,CNNBiLSTMAttentionRUL,0.001,HuberLoss,64,0.2,121954,0.32513,0.26629,9491.0,5431.4,5431.4,5,Eliminated in Screening
+OPT2_12,MainModel_NoAttention,0.0005,HuberLoss,32,0.2,65953,0.32676,0.26997,10248.2,4158.1,4158.1,6,Eliminated in Screening
+OPT2_11,MainModel_NoAttention,0.001,HuberLoss,64,0.2,121889,0.3422,0.28447,10906.2,3212.2,3212.2,7,Eliminated in Screening
+OPT2_03,LateConcatBaseline,0.001,MSELoss,64,0.2,255905,0.34466,0.27894,11524.5,2011.5,2011.5,8,Eliminated in Screening
+OPT2_01,LateConcatBaseline,0.001,HuberLoss,64,0.2,255905,0.34473,0.27897,11524.3,2009.2,2009.2,9,Eliminated in Screening
+OPT2_02,LateConcatBaseline,0.0005,HuberLoss,64,0.2,255905,0.35123,0.29178,11573.8,563.3,563.3,10,Eliminated in Screening
+OPT2_07,VibrationOnlyBaseline,0.001,HuberLoss,32,0.0,58561,0.36267,0.29339,9070.3,4369.0,4369.0,11,Eliminated in Screening
+OPT2_04,LateConcatBaseline,0.001,HuberLoss,32,0.2,100193,0.36374,0.30555,11412.4,2598.6,2598.6,12,Eliminated in Screening

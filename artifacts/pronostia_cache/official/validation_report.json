@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "full_pass": {
+    "train": {
+      "windows": 462,
+      "trace": {
+        "bearing_id": "Bearing1_1",
+        "raw_end_path": "Learning_set/Bearing1_1/acc_02112.csv",
+        "end_index": 2112,
+        "end_timestamp": 55889.065664,
+        "rul_seconds": 6910.0,
+        "vibration_shape": [
+          32,
+          32,
+          2,
+          1024
+        ],
+        "temperature_shape": [
+          32,
+          32,
+          1,
+          64
+        ]
+      }
+    },
+    "test": {
+      "windows": 866,
+      "trace": {
+        "bearing_id": "Bearing1_3",
+        "raw_end_path": "Test_set/Bearing1_3/acc_00032.csv",
+        "end_index": 32,
+        "end_timestamp": 31091.37816,
+        "rul_seconds": 23430.0,
+        "vibration_shape": [
+          32,
+          32,
+          2,
+          1024
+        ],
+        "temperature_shape": [
+          32,
+          32,
+          1,
+          64
+        ]
+      }
+    }
+  }
+}
